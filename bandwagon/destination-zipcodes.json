@@ -1,0 +1,444 @@
+{
+  "result": [
+    {
+      "result": 1,
+      "dropoff_zipcode": "02138"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "06905"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "07114"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "07302"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "07306"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "08542"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "08816"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "08902"
+    },
+    {
+      "result": 12,
+      "dropoff_zipcode": "10001"
+    },
+    {
+      "result": 7,
+      "dropoff_zipcode": "10002"
+    },
+    {
+      "result": 19,
+      "dropoff_zipcode": "10003"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "10005"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "10006"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "10007"
+    },
+    {
+      "result": 20,
+      "dropoff_zipcode": "10009"
+    },
+    {
+      "result": 7,
+      "dropoff_zipcode": "10010"
+    },
+    {
+      "result": 21,
+      "dropoff_zipcode": "10011"
+    },
+    {
+      "result": 7,
+      "dropoff_zipcode": "10012"
+    },
+    {
+      "result": 9,
+      "dropoff_zipcode": "10013"
+    },
+    {
+      "result": 5,
+      "dropoff_zipcode": "10014"
+    },
+    {
+      "result": 21,
+      "dropoff_zipcode": "10016"
+    },
+    {
+      "result": 10,
+      "dropoff_zipcode": "10017"
+    },
+    {
+      "result": 6,
+      "dropoff_zipcode": "10018"
+    },
+    {
+      "result": 21,
+      "dropoff_zipcode": "10019"
+    },
+    {
+      "result": 5,
+      "dropoff_zipcode": "10021"
+    },
+    {
+      "result": 12,
+      "dropoff_zipcode": "10022"
+    },
+    {
+      "result": 7,
+      "dropoff_zipcode": "10023"
+    },
+    {
+      "result": 9,
+      "dropoff_zipcode": "10024"
+    },
+    {
+      "result": 7,
+      "dropoff_zipcode": "10025"
+    },
+    {
+      "result": 5,
+      "dropoff_zipcode": "10026"
+    },
+    {
+      "result": 6,
+      "dropoff_zipcode": "10027"
+    },
+    {
+      "result": 5,
+      "dropoff_zipcode": "10028"
+    },
+    {
+      "result": 6,
+      "dropoff_zipcode": "10029"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "10030"
+    },
+    {
+      "result": 20,
+      "dropoff_zipcode": "10036"
+    },
+    {
+      "result": 6,
+      "dropoff_zipcode": "10037"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "10038"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "10044"
+    },
+    {
+      "result": 7,
+      "dropoff_zipcode": "10065"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "10069"
+    },
+    {
+      "result": 3,
+      "dropoff_zipcode": "10119"
+    },
+    {
+      "result": 6,
+      "dropoff_zipcode": "10128"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "10271"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "10282"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "10306"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "10451"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "10454"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "10463"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "10471"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11004"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11021"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11023"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11101"
+    },
+    {
+      "result": 5,
+      "dropoff_zipcode": "11102"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11103"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11105"
+    },
+    {
+      "result": 4,
+      "dropoff_zipcode": "11106"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11109"
+    },
+    {
+      "result": 4,
+      "dropoff_zipcode": "11201"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11203"
+    },
+    {
+      "result": 7,
+      "dropoff_zipcode": "11205"
+    },
+    {
+      "result": 6,
+      "dropoff_zipcode": "11206"
+    },
+    {
+      "result": 3,
+      "dropoff_zipcode": "11207"
+    },
+    {
+      "result": 3,
+      "dropoff_zipcode": "11209"
+    },
+    {
+      "result": 6,
+      "dropoff_zipcode": "11211"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11212"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11213"
+    },
+    {
+      "result": 10,
+      "dropoff_zipcode": "11215"
+    },
+    {
+      "result": 4,
+      "dropoff_zipcode": "11216"
+    },
+    {
+      "result": 4,
+      "dropoff_zipcode": "11217"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11218"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11219"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11220"
+    },
+    {
+      "result": 3,
+      "dropoff_zipcode": "11221"
+    },
+    {
+      "result": 6,
+      "dropoff_zipcode": "11222"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11223"
+    },
+    {
+      "result": 7,
+      "dropoff_zipcode": "11225"
+    },
+    {
+      "result": 3,
+      "dropoff_zipcode": "11226"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11229"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11230"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11232"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11233"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11234"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11235"
+    },
+    {
+      "result": 5,
+      "dropoff_zipcode": "11236"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11237"
+    },
+    {
+      "result": 5,
+      "dropoff_zipcode": "11238"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11249"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11357"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11360"
+    },
+    {
+      "result": 3,
+      "dropoff_zipcode": "11363"
+    },
+    {
+      "result": 5,
+      "dropoff_zipcode": "11371"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11373"
+    },
+    {
+      "result": 3,
+      "dropoff_zipcode": "11375"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11385"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11411"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11413"
+    },
+    {
+      "result": 3,
+      "dropoff_zipcode": "11415"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11417"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11418"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11419"
+    },
+    {
+      "result": 3,
+      "dropoff_zipcode": "11430"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11432"
+    },
+    {
+      "result": 3,
+      "dropoff_zipcode": "11434"
+    },
+    {
+      "result": 2,
+      "dropoff_zipcode": "11435"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11436"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "11561"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "19045"
+    },
+    {
+      "result": 1,
+      "dropoff_zipcode": "22201"
+    },
+    {
+      "result": 42,
+      "dropoff_zipcode": null
+    }
+  ]
+}
