@@ -1,0 +1,85 @@
+This file has automatically been generated.
+05/13/16 11:51:49
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[11:51:49]patFileNames.cc:52  C:\Users\murbanek\CUSP\chow\airport_modes\01logit.par does not exist
+[11:51:49]patFileNames.cc:56  Trying default.par instead
+[11:51:49]patBiogeme.cc:134  Read default.par
+ Read headers in C:\Users\murbanek\CUSP\chow\airport_modes\swissmetro.dat
+ 28 headers read in C:\Users\murbanek\CUSP\chow\airport_modes\swissmetro.dat
+ Total number of different headers: 28
+ Read file C:\Users\murbanek\CUSP\chow\airport_modes\01logit.mod
+ Opening file C:\Users\murbanek\CUSP\chow\airport_modes\swissmetro.dat
+ Data  file... line 500	Memory: 89 Kb
+ Data  file... line 1000	Memory: 169 Kb
+ Data  file... line 1500	Memory: 169 Kb
+ Data  file... line 2000	Memory: 176 Kb
+ Data  file... line 2500	Memory: 266 Kb
+ Data  file... line 3000	Memory: 355 Kb
+ Data  file... line 3500	Memory: 445 Kb
+ Data  file... line 4000	Memory: 462 Kb
+ Data  file... line 4500	Memory: 552 Kb
+ Data  file... line 5000	Memory: 595 Kb
+ Data  file... line 5500	Memory: 685 Kb
+ Data  file... line 6000	Memory: 775 Kb
+ Data  file... line 6500	Memory: 865 Kb
+ Data  file... line 7000	Memory: 955 Kb
+ Data  file... line 7500	Memory: 1 Mb
+ Data  file... line 8000	Memory: 1 Mb
+ Data  file... line 8500	Memory: 1 Mb
+ Data  file... line 9000	Memory: 1 Mb
+ Data  file... line 9500	Memory: 1 Mb
+ Data  file... line 10000	Memory: 1 Mb
+ Data  file... line 10500	Memory: 1 Mb
+ Total obs.:   10727
+ Total memory: 1216.13 Kb
+ Detailed info in C:\Users\murbanek\CUSP\chow\airport_modes\01logit~1.sta
+ Nbr of attributes: 35
+ Nbr of alternatives: 3
+ Sample size: 6768
+ Nbr of groups: 1
+ Nbr of betas: 5
+ Run time for data processing: 00:01
+ Dimension of the optimisation problem = 4
+ Utility function: Linear-in-parameters
+ Init loglike=-6964.66
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +1.44e-003    1 1.00e+000 +6.9646630e+003 ****Converg  +1.07e+000 4  ++ P
+ +1.51e-003    2 2.00e+000 +5.4217993e+003 ****Converg  +1.08e+000 4  ++ P
+ +1.51e-003    3 4.00e+000 +5.3328087e+003 ****Converg  +1.02e+000 4  ++ P
+ +1.79e-004    4 8.00e+000 +5.3312529e+003 ****Converg  +1.00e+000 4  ++ P
+ Convergence reached...
+ Run time: 00:00
+ Solution = (-0.154633	-0.701187	-1.08379	-1.27786	)
+ Gradient = (0.000168654	0.000164808	7.95473e-005	0.000577487	)
+ Final log likelihood=-5331.25
+ Be patient... BIOGEME is preparing the output files
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		C:\Users\murbanek\CUSP\chow\airport_modes\01logit.mod
+ Sample 1 :				C:\Users\murbanek\CUSP\chow\airport_modes\swissmetro.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		C:\Users\murbanek\CUSP\chow\airport_modes\01logit~1.rep
+ Estimation results (HTML):	C:\Users\murbanek\CUSP\chow\airport_modes\01logit~1.html
+ Estimation results (Latex):	C:\Users\murbanek\CUSP\chow\airport_modes\01logit~1.tex
+ Estimation results (ALogit):	C:\Users\murbanek\CUSP\chow\airport_modes\01logit~1.F12
+ Result model spec. file:	C:\Users\murbanek\CUSP\chow\airport_modes\01logit~1.res
+ Sample statistics:		C:\Users\murbanek\CUSP\chow\airport_modes\01logit~1.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			C:\Users\murbanek\CUSP\chow\airport_modes\01logit.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Logit Model
+ ==================
+ The minimum argument of exp was -18.353
+
+ Run time for estimation:      00:00
+ Total run time:               00:01

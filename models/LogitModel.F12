@@ -1,0 +1,20 @@
+Biogeme C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel
+This file [C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel.F12] has automatically been generated.
+05/13/16 14:52:10
+Michel Bierlaire, EPFL
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+   Example of a logit model for a transportation mode choice
+   with 3 alternatives:
+   - Transit
+   - Taxi
+   - Other
+END
+0	ASC_OTHER	F	1.75592	0.556983
+1	ASC_TRANSIT	F	0.0602172	0.77147
+2	B_COST	F	0.0230083	0.0115404
+3	B_TT	F	0.00279628	0.00882039
+-1
+311	-341.668	-295.876	-293.319
+   7   0 05/13/16 14:52:10
+  57608  83471  89095  14866 -68982 -37900

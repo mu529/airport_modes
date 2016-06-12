@@ -1,0 +1,61 @@
+// This file has automatically been generated.
+// 05/13/16 14:52:10
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+   Example of a logit model for a transportation mode choice
+   with 3 alternatives:
+   - Transit
+   - Taxi
+   - Other
+
+                         Model: Logit
+Number of estimated parameters: 4
+        Number of observations: 311
+         Number of individuals: 311
+           Null log likelihood: -341.668
+            Cte log likelihood: -295.876
+           Init log likelihood: -341.668
+          Final log likelihood: -293.319
+         Likelihood ratio test: 96.699
+                    Rho-square: 0.142
+           Adjusted rho-square: 0.130
+           Final gradient norm: +2.158e-003
+                    Diagnostic: Convergence reached...
+                    Iterations: 7
+                      Run time: 00:00
+           Variance-covariance: from analytical hessian
+                   Sample file: C:\Users\murbanek\CUSP\chow\airport_modes\data_train.dat
+
+Utility parameters
+******************
+Name        Value   Std err   t-test p-val   Rob. std err Rob. t-test Rob. p-val   
+----        -----   -------   ------ -----   ------------ ----------- ----------   
+ASC_OTHER   1.76    0.587     2.99   0.00    0.557        3.15        0.00         
+ASC_TAXI    0.000   --fixed--                                                      
+ASC_TRANSIT 0.0602  0.852     0.07   0.94  * 0.771        0.08        0.94       * 
+B_COST      0.0230  0.0126    1.82   0.07  * 0.0115       1.99        0.05         
+B_TT        0.00280 0.00956   0.29   0.77  * 0.00882      0.32        0.75       * 
+
+Utility functions
+*****************
+1	A1_TRANSIT	av1	ASC_TRANSIT * one + B_TT * TRANSIT_TT
+2	A2_TAXI	av2	ASC_TAXI * one + B_TT * TAXI_TT + B_COST * TAXI_COST
+3	A3_OTHER	av3	ASC_OTHER * one
+
+
+Correlation of coefficients
+***************************
+Coeff1      Coeff2      Covariance Correlation t-test   Rob. covar. Rob. correl. Rob. t-test   
+------      ------      ---------- ----------- ------   ----------- ------------ -----------   
+ASC_TRANSIT B_COST      0.00982    0.913       0.04   * 0.00793     0.891        0.05        * 
+ASC_TRANSIT B_TT        -0.00576   -0.707      0.07   * -0.00469    -0.690       0.07        * 
+B_COST      B_TT        -5.31e-005 -0.440      1.07   * -3.86e-005  -0.379       1.19        * 
+ASC_OTHER   ASC_TRANSIT 0.303      0.606       2.49     0.248       0.576        2.65          
+ASC_OTHER   B_TT        0.000525   0.0936      2.99     0.000730    0.149        3.15          
+ASC_OTHER   B_COST      0.00616    0.832       3.01     0.00537     0.835        3.17          
+
+Smallest singular value of the hessian: 1.11962
+

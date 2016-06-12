@@ -1,0 +1,19 @@
+Biogeme C:\Users\murbanek\CUSP\chow\airport_modes\01logit
+This file [C:\Users\murbanek\CUSP\chow\airport_modes\01logit.F12] has automatically been generated.
+05/13/16 11:50:03
+Michel Bierlaire, EPFL
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+   Example of a logit model for a transportation mode choice with 3 alternatives:
+   - Train
+   - Car
+   - Swissmetro, an hypothetical high-speed train
+END
+0	ASC_CAR	F	-0.154633	0.0581634
+1	ASC_TRAIN	F	-0.701187	0.082562
+2	B_COST	F	-1.08379	0.068225
+3	B_TIME	F	-1.27786	0.104254
+-1
+6768	-6964.66	-6257.86	-5331.25
+   4   0 05/13/16 11:50:03
+  81242    721 -14745 -79557 -88322  30902

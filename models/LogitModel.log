@@ -1,0 +1,67 @@
+This file has automatically been generated.
+05/13/16 14:52:10
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[14:52:10]patFileNames.cc:52  C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel.par does not exist
+[14:52:10]patFileNames.cc:56  Trying default.par instead
+[14:52:10]patBiogeme.cc:134  Read default.par
+ Read headers in C:\Users\murbanek\CUSP\chow\airport_modes\data_train.dat
+ 8 headers read in C:\Users\murbanek\CUSP\chow\airport_modes\data_train.dat
+ Total number of different headers: 8
+ Read file C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel.mod
+ Opening file C:\Users\murbanek\CUSP\chow\airport_modes\data_train.dat
+ Total obs.:   310
+ Total memory: 36.4453 Kb
+ Detailed info in C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel.sta
+ Nbr of attributes: 9
+ Nbr of alternatives: 3
+ Sample size: 311
+ Nbr of groups: 1
+ Nbr of betas: 5
+ Run time for data processing: 00:00
+ Dimension of the optimisation problem = 4
+ Utility function: Linear-in-parameters
+ Init loglike=-341.668
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +2.93e+000    1 1.00e+000 +3.4166842e+002 ****Converg  +1.06e+000 4  ++ P
+ +1.62e+000    2 2.00e+000 +3.0255227e+002 ****Converg  +1.04e+000 4  ++ P
+ +1.93e-001    3 4.00e+000 +3.0045406e+002 ****Converg  +1.00e+000 4  ++ P
+ +3.07e-001    4 8.00e+000 +2.9360472e+002 ****Converg  +1.01e+000 4  ++ P
+ +1.89e-003    5 1.60e+001 +2.9357038e+002 ****Converg  +1.01e+000 4  ++ P
+ +1.39e-002    6 3.20e+001 +2.9331928e+002 ****Converg  +1.00e+000 4  ++ P
+ +1.76e-004    7 6.40e+001 +2.9331922e+002 ****Converg  +1.00e+000 4  ++ P
+ Convergence reached...
+ Run time: 00:00
+ Solution = (1.75592	0.0602172	0.0230083	0.00279628	)
+ Gradient = (-5.90562e-005	-1.242e-005	0.00204284	0.000693034	)
+ Final log likelihood=-293.319
+ Be patient... BIOGEME is preparing the output files
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel.mod
+ Sample 1 :				C:\Users\murbanek\CUSP\chow\airport_modes\data_train.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel.rep
+ Estimation results (HTML):	C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel.html
+ Estimation results (Latex):	C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel.tex
+ Estimation results (ALogit):	C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel.F12
+ Result model spec. file:	C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel.res
+ Sample statistics:		C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Logit Model
+ ==================
+ The minimum argument of exp was -2.58106
+
+ Run time for estimation:      00:00
+ Total run time:               00:00

@@ -1,0 +1,19 @@
+This file has automatically been generated.
+05/13/16 11:55:35
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[11:55:35]patFileNames.cc:52  C:\Users\murbanek\CUSP\chow\airport_modes\01logit.mod.par does not exist
+[11:55:35]patFileNames.cc:56  Trying default.par instead
+[11:55:35]patBiogeme.cc:134  Read default.par
+ Read headers in C:\Users\murbanek\CUSP\chow\airport_modes\mydata2.dat
+ 8 headers read in C:\Users\murbanek\CUSP\chow\airport_modes\mydata2.dat
+ Total number of different headers: 8
+ C:\Users\murbanek\CUSP\chow\airport_modes\01logit.mod.mod does not exist
+ Trying default.mod instead
+ Read file default.mod
+Warning:  Error: File default.mod does not exist
+Warning:  Error: File default.mod does not exist
+Warning:  Error: File default.mod does not exist

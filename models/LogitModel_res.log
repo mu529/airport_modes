@@ -1,0 +1,31 @@
+This file has automatically been generated.
+05/13/16 14:52:58
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[14:52:58]patFileNames.cc:52  C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel_res.par does not exist
+[14:52:58]patFileNames.cc:56  Trying default.par instead
+[14:52:58]patBiogeme.cc:134  Read default.par
+ Read headers in C:\Users\murbanek\CUSP\chow\airport_modes\data_test.dat
+ 8 headers read in C:\Users\murbanek\CUSP\chow\airport_modes\data_test.dat
+ Total number of different headers: 8
+ Read file C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel_res.mod
+Warning:  Lower bound on mu set to 1e-005
+Warning:   Value defined by gevMinimumMu in default.par
+ Opening file C:\Users\murbanek\CUSP\chow\airport_modes\data_test.dat
+ Total obs.:   99
+ Total memory: 11.7188 Kb
+ Detailed info in C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel_res.sta
+ Nbr of attributes: 9
+ Nbr of alternatives: 3
+ Sample size: 100
+ Nbr of groups: 1
+ Nbr of betas: 5
+ BIOSIM Input file
+ =================
+ Model specification:	C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel_res.mod
+ BIOSIM Output file
+ ==================
+ Sample enumeration:	C:\Users\murbanek\CUSP\chow\airport_modes\LogitModel_res.enu

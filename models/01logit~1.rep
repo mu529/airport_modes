@@ -1,0 +1,59 @@
+// This file has automatically been generated.
+// 05/13/16 11:51:50
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+   Example of a logit model for a transportation mode choice with 3 alternatives:
+   - Train
+   - Car
+   - Swissmetro, an hypothetical high-speed train
+
+                         Model: Logit
+Number of estimated parameters: 4
+        Number of observations: 6768
+         Number of individuals: 6768
+           Null log likelihood: -6964.663
+           Init log likelihood: -6964.663
+          Final log likelihood: -5331.252
+         Likelihood ratio test: 3266.822
+                    Rho-square: 0.235
+           Adjusted rho-square: 0.234
+           Final gradient norm: +6.288e-004
+                    Diagnostic: Convergence reached...
+                    Iterations: 4
+                      Run time: 00:00
+           Variance-covariance: from analytical hessian
+                   Sample file: C:\Users\murbanek\CUSP\chow\airport_modes\swissmetro.dat
+
+Utility parameters
+******************
+Name      Value  Std err   t-test p-val Rob. std err Rob. t-test Rob. p-val 
+----      -----  -------   ------ ----- ------------ ----------- ---------- 
+ASC_CAR   -0.155 0.0432    -3.58  0.00  0.0582       -2.66       0.01       
+ASC_SM    0.000  --fixed--                                                  
+ASC_TRAIN -0.701 0.0549    -12.78 0.00  0.0826       -8.49       0.00       
+B_COST    -1.08  0.0518    -20.91 0.00  0.0682       -15.89      0.00       
+B_TIME    -1.28  0.0569    -22.46 0.00  0.104        -12.26      0.00       
+
+Utility functions
+*****************
+1	A1_TRAIN	TRAIN_AV_SP	ASC_TRAIN * one + B_TIME * TRAIN_TT_SCALED + B_COST * TRAIN_COST_SCALED
+2	A2_SM	SM_AV	ASC_SM * one + B_TIME * SM_TT_SCALED + B_COST * SM_COST_SCALED
+3	A3_Car	CAR_AV_SP	ASC_CAR * one + B_TIME * CAR_TT_SCALED + B_COST * CAR_CO_SCALED
+
+
+Correlation of coefficients
+***************************
+Coeff1    Coeff2    Covariance Correlation t-test Rob. covar. Rob. correl. Rob. t-test   
+------    ------    ---------- ----------- ------ ----------- ------------ -----------   
+B_COST    B_TIME    0.000550   0.187       2.79   0.00220     0.309        1.84        * 
+ASC_TRAIN B_TIME    -0.00225   -0.722      5.56   -0.00760    -0.883       3.18          
+ASC_TRAIN B_COST    8.22e-006  0.00289     5.08   -0.000831   -0.147       3.34          
+ASC_CAR   B_TIME    -0.00144   -0.585      12.57  -0.00482    -0.796       7.27          
+ASC_CAR   B_COST    0.000485   0.216       15.52  2.86e-005   0.00722      10.40         
+ASC_CAR   ASC_TRAIN 0.00138    0.580       11.85  0.00390     0.812        11.16         
+
+Smallest singular value of the hessian: 5.90497
+
