@@ -1,0 +1,30 @@
+++++++++ 06/26/16 12:10:12 ++++++++
+Sample size=1596
+Excluded Obs.:       0
+Total obs. in files: 1595
+Number of cases:     3700
+Statistics of attributes
+++++++++++++++++++++++++
+Name	Nbr	Mean	Min	Max	Recommended/Conservative upper bounds for Box-Cox
+CHOICE	1596	2.45022	1	4	
+FREE_COST	1596	0	0	0	
+TAXI_COST	1596	58.1085	14.63	100.61	
+TAXI_TT	1596	33.964	5.76	65.86	
+TRANSIT_COST	1596	7.75	7.75	7.75	
+TRANSIT_TT	1596	67.9601	19.43	127.95	
+one	1596	1	1	1	
+Nbr of times alternatives are available
+Alt	#
+1	1596
+2	1596
+3	1596
+4	508
+Nbr of times alternatives are chosen
+Alt	#
+1	575
+2	234
+3	279
+4	508
+Group membership
+Group	#
+1	1596

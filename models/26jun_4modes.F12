@@ -1,0 +1,17 @@
+Biogeme models/26jun_4modes
+This file [models/26jun_4modes.F12] has automatically been generated.
+06/26/16 12:10:13
+Michel Bierlaire, EPFL
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+   Nothing here
+END
+0	ASC_FREE	F	15.2693	0.286482
+1	ASC_OTHER	F	0.0850243	0.299002
+2	ASC_TRANSIT	F	-0.0166216	0.343973
+3	B_COST	F	0.0151823	0.00495684
+4	B_TT	F	-0.00286133	0.00455413
+-1
+1596	-1899.53	-2104.41	-1101.16
+  24   0 06/26/16 12:10:13
+  97357  55619  53847  84235  82516  88403  20575  21490 -67309 -32362

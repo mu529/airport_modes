@@ -1,0 +1,87 @@
+This file has automatically been generated.
+06/26/16 12:10:12
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[12:10:12]patFileNames.cc:52  models/26jun_4modes.par does not exist
+[12:10:12]patFileNames.cc:56  Trying default.par instead
+[12:10:12]patBiogeme.cc:134  Read default.par
+ Read headers in models-data/data_26jun.dat
+ 11 headers read in models-data/data_26jun.dat
+ Total number of different headers: 11
+ Read file models/26jun_4modes.mod
+ Opening file models-data/data_26jun.dat
+ Data  file... line 500	Memory: 74 Kb
+ Data  file... line 1000	Memory: 150 Kb
+ Data  file... line 1500	Memory: 225 Kb
+ Total obs.:   1595
+ Total memory: 240.023 Kb
+ Detailed info in models/26jun_4modes.sta
+ Nbr of attributes: 12
+ Nbr of alternatives: 4
+ Sample size: 1596
+ Nbr of groups: 1
+ Nbr of betas: 6
+ Run time for data processing: 00:00
+ Dimension of the optimisation problem = 5
+ Utility function: Linear-in-parameters
+ Init loglike=-1899.53
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +5.26e-001    1 1.00e+000 +1.8995277e+003 ****OutTrReg +9.72e-001 5  ++ P
+ +5.26e-001    2 2.00e+000 +1.3324701e+003 ****Converg  +1.18e+000 5  ++ P
+ +3.37e-001    3 4.00e+000 +1.1851781e+003 ****Converg  +1.22e+000 5  ++ P
+ +2.43e-001    4 8.00e+000 +1.1512728e+003 ****Converg  +1.10e+000 5  ++ P
+ +2.84e-001    5 1.60e+001 +1.1188304e+003 ****Converg  +1.01e+000 5  ++ P
+ +1.93e-002    6 3.20e+001 +1.1185747e+003 ****Converg  +1.06e+000 5  ++ P
+ +7.09e-002    7 6.40e+001 +1.1046331e+003 ****Converg  +1.12e+000 5  ++ P
+ +9.28e-003    8 1.28e+002 +1.1034478e+003 ****Converg  +9.97e-001 5  ++ P
+ +6.66e-003    9 2.56e+002 +1.1031162e+003 ****Converg  +1.25e+000 5  ++ P
+ +1.16e-002   10 5.12e+002 +1.1018240e+003 ****Converg  +1.01e+000 5  ++ P
+ +2.50e-003   11 1.02e+003 +1.1017859e+003 ****Converg  +1.23e+000 5  ++ P
+ +3.56e-003   12 2.05e+003 +1.1013762e+003 ****Converg  +1.00e+000 5  ++ P
+ +9.91e-004   13 4.10e+003 +1.1013706e+003 ****Converg  +1.25e+000 5  ++ P
+ +1.25e-003   14 8.19e+003 +1.1012361e+003 ****Converg  +1.00e+000 5  ++ P
+ +3.98e-004   15 1.64e+004 +1.1012354e+003 ****Converg  +1.26e+000 5  ++ P
+ +4.50e-004   16 3.28e+004 +1.1011881e+003 ****Converg  +1.00e+000 5  ++ P
+ +1.60e-004   17 6.55e+004 +1.1011880e+003 ****Converg  +1.26e+000 5  ++ P
+ +1.64e-004   18 1.31e+005 +1.1011709e+003 ****Converg  +1.00e+000 5  ++ P
+ +6.38e-005   19 2.62e+005 +1.1011709e+003 ****Converg  +1.26e+000 5  ++ P
+ +6.03e-005   20 5.24e+005 +1.1011647e+003 ****Converg  +1.00e+000 5  ++ P
+ +2.54e-005   21 1.05e+006 +1.1011647e+003 ****Converg  +1.26e+000 5  ++ P
+ +2.22e-005   22 2.10e+006 +1.1011624e+003 ****Converg  +1.00e+000 5  ++ P
+ +1.00e-005   23 4.19e+006 +1.1011624e+003 ****Converg  +1.26e+000 5  ++ P
+ +8.15e-006   24 8.39e+006 +1.1011615e+003 ****Converg  +1.00e+000 5  ++ P
+ Convergence reached...
+ Run time: 00:01
+ Solution = (15.2693	0.0850243	-0.0166216	0.0151823	-0.00286133	)
+ Gradient = (-0.000491198	-0.000566104	0.000492217	8.18651e-006	8.52027e-006	)
+ Final log likelihood=-1101.16
+ Be patient... BIOGEME is preparing the output files
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		models/26jun_4modes.mod
+ Sample 1 :				models-data/data_26jun.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		models/26jun_4modes.rep
+ Estimation results (HTML):	models/26jun_4modes.html
+ Estimation results (Latex):	models/26jun_4modes.tex
+ Estimation results (ALogit):	models/26jun_4modes.F12
+ Result model spec. file:	models/26jun_4modes.res
+ Sample statistics:		models/26jun_4modes.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			models/26jun_4modes.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Logit Model
+ ==================
+ The minimum argument of exp was -15.5344
+
+ Run time for estimation:      00:01
+ Total run time:               00:01
