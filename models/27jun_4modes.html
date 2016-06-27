@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<script src="http://transp-or.epfl.ch/biogeme/sorttable.js"></script>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>models/27jun_4modes.html - Report from biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]</title>
+<meta name="keywords" content="biogeme, discrete choice, random utility">
+<meta name="description" content="Report from biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]">
+<meta name="author" content="Michel Bierlaire">
+<style type=text/css>
+<!--table
+.biostyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;}
+.boundstyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;
+        color:red}
+-->
+</style>
+</head>
+
+<body bgcolor="#ffffff">
+<h1>biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]</h1>
+<h2>Michel Bierlaire, EPFL</h2>
+<p>This file has automatically been generated.</p>
+<p> 06/27/16 12:29:17</p>
+<p><font size='+1'>Tip: click on the columns headers to sort a table  [<a href='http://www.kryogenix.org/code/browser/sorttable/' target='_blank'>Credits</a>]</font></p>
+
+<table>
+<tr><td>
+Nothing here
+</td></tr>
+</table>
+
+<table border="0">
+<tr class=biostyle ><td align=right><strong>Model</strong>:</td> <td>Logit</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of estimated parameters</strong>: </td> <td>5</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of  observations</strong>: </td> <td>1596</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of individuals</strong>: </td> <td>1596</td></tr>
+<tr class=biostyle><td align=right><strong>Null log likelihood</strong>:	</td> <td>-1899.528</td></tr>
+<tr class=biostyle><td align=right><strong>Init log likelihood</strong>:	</td> <td>-1899.528</td></tr>
+<tr class=biostyle><td align=right><strong>Final log likelihood</strong>:	</td> <td>-1101.162</td></tr>
+<tr class=biostyle><td align=right><strong>Likelihood ratio test</strong>:	</td> <td>1596.732</td></tr>
+<tr class=biostyle><td align=right><strong>Rho-square</strong>:		</td> <td>0.420</td></tr>
+<tr class=biostyle><td align=right><strong>Adjusted rho-square</strong>:		</td> <td>0.418</td></tr>
+<tr class=biostyle><td align=right><strong>Final gradient norm</strong>:	</td> <td>+9.548e-004</td></tr>
+<tr class=biostyle><td align=right><strong>Diagnostic</strong>:	</td> <td>Convergence reached...</td></tr>
+<tr class=biostyle><td align=right><strong>Iterations</strong>:	</td> <td>23</td></tr>
+<tr class=biostyle><td align=right><strong>Run time</strong>:	</td> <td>00:00</td></tr>
+<tr class=biostyle><td align=right><strong>Variance-covariance</strong>:	</td> <td>from analytical hessian
+</td></tr>
+<tr class=biostyle><td align=right><strong>Sample file</strong>:	</td><td>models-data/data_26jun.dat</td></tr></table>
+<h2>Utility parameters</h2>
+<table border="1" class="sortable">
+<tr class=biostyle><th>Name </th><th>Value		</th><th>Std err		</th><th>t-test</th><th>p-value</th><th></th><th>Robust Std err		</th><th>Robust t-test</th><th>p-value</th><th></th></tr>
+<tr class=biostyle>
+<td>ASC_FREE</td><td>15.2</td><td>43.6</td><td>0.35</td><td>0.73</td><td>*</td><td>0.286</td><td>53.05</td><td>0.00</td><td></td></tr>
+<tr class=biostyle>
+<td>ASC_OTHER</td><td>0.0850</td><td>0.296</td><td>0.29</td><td>0.77</td><td>*</td><td>0.299</td><td>0.28</td><td>0.78</td><td>*</td></tr>
+<tr class=boundstyle>
+<td>ASC_TAXI</td><td>0.000</td><td>fixed</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr class=biostyle>
+<td>ASC_TRANSIT</td><td>0.101</td><td>0.376</td><td>0.27</td><td>0.79</td><td>*</td><td>0.378</td><td>0.27</td><td>0.79</td><td>*</td></tr>
+<tr class=biostyle>
+<td>B_COST</td><td>0.0152</td><td>0.00496</td><td>3.06</td><td>0.00</td><td></td><td>0.00496</td><td>3.06</td><td>0.00</td><td></td></tr>
+<tr class=biostyle>
+<td>B_TT</td><td>-0.00286</td><td>0.00443</td><td>-0.65</td><td>0.52</td><td>*</td><td>0.00455</td><td>-0.63</td><td>0.53</td><td>*</td></tr>
+</table>
+<h2>Utility functions</h2>
+<table border="1" class="sortable">
+<tr class=biostyle><th>Id</th><th>Name</th><th>Availability</th><th>Specification</th></tr><tr class=biostyle><td>1</td><td>A1_TAXI</td><td>av2</td><td>ASC_TAXI * one + B_TT * TAXI_TT + B_COST * TAXI_COST</td></tr>
+<tr class=biostyle><td>2</td><td>A2_TRANSIT</td><td>av1</td><td>ASC_TRANSIT * one + B_TT * TRANSIT_TT</td></tr>
+<tr class=biostyle><td>3</td><td>A3_OTHER</td><td>av3</td><td>ASC_OTHER * one</td></tr>
+<tr class=biostyle><td>4</td><td>A4_FREE</td><td>av4</td><td>ASC_FREE * one</td></tr>
+</table>
+
+
+
+<h2>Correlation of coefficients</h2>
+<table border="1" class="sortable">
+<tr class=biostyle><th>Coefficient1 </th><th>Coefficient2</th><th>Covariance</th><th>Correlation</th><th>t-test</th><th>p-value</th><th></th><th>Rob. cov.</th><th>Rob. corr.</th><th>Rob. t-test</th><th>p-value</th><th></th></tr>
+<tr class=biostyle><td>
+ASC_OTHER	</td><td>ASC_TRANSIT</td><td>0.0666</td><td>0.598</td><td>-0.05</td><td>0.96	</td><td>*</td><td>0.0649</td><td>0.573</td><td>-0.05</td><td>0.96	</td><td>*</td><tr class=biostyle><td>
+ASC_TRANSIT	</td><td>B_COST</td><td>0.00170</td><td>0.912</td><td>0.23</td><td>0.82	</td><td>*</td><td>0.00170</td><td>0.905</td><td>0.23</td><td>0.82	</td><td>*</td><tr class=biostyle><td>
+ASC_OTHER	</td><td>B_COST</td><td>0.00122</td><td>0.831</td><td>0.24</td><td>0.81	</td><td>*</td><td>0.00122</td><td>0.825</td><td>0.24</td><td>0.81	</td><td>*</td><tr class=biostyle><td>
+ASC_TRANSIT	</td><td>B_TT</td><td>-0.00105</td><td>-0.633</td><td>0.27</td><td>0.78	</td><td>*</td><td>-0.00111</td><td>-0.645</td><td>0.27</td><td>0.79	</td><td>*</td><tr class=biostyle><td>
+ASC_OTHER	</td><td>B_TT</td><td>0.000259</td><td>0.197</td><td>0.30</td><td>0.77	</td><td>*</td><td>0.000293</td><td>0.215</td><td>0.29</td><td>0.77	</td><td>*</td><tr class=biostyle><td>
+B_COST	</td><td>B_TT</td><td>-7.22e-006</td><td>-0.329</td><td>2.36</td><td>0.02	</td><td></td><td>-7.31e-006</td><td>-0.324</td><td>2.33</td><td>0.02	</td><td></td><tr class=biostyle><td>
+ASC_FREE	</td><td>ASC_TRANSIT</td><td>0.0660</td><td>0.00403</td><td>0.35</td><td>0.73	</td><td>*</td><td>0.0641</td><td>0.591</td><td>48.46</td><td>0.00	</td><td></td><tr class=biostyle><td>
+ASC_FREE	</td><td>B_TT</td><td>0.000239</td><td>0.00124</td><td>0.35</td><td>0.73	</td><td>*</td><td>0.000268</td><td>0.206</td><td>53.23</td><td>0.00	</td><td></td><tr class=biostyle><td>
+ASC_FREE	</td><td>B_COST</td><td>0.00120</td><td>0.00555</td><td>0.35</td><td>0.73	</td><td>*</td><td>0.00120</td><td>0.842</td><td>53.78</td><td>0.00	</td><td></td><tr class=biostyle><td>
+ASC_FREE	</td><td>ASC_OTHER</td><td>0.0821</td><td>0.00637</td><td>0.35</td><td>0.73	</td><td>*</td><td>0.0834</td><td>0.974</td><td>220.83</td><td>0.00	</td><td></td></table>
+<p>Smallest singular value of the hessian: 0.000526842</p>
+</html>

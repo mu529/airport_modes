@@ -1,0 +1,19 @@
+Biogeme models/27jun_b
+This file [models/27jun_b.F12] has automatically been generated.
+06/27/16 13:05:10
+Michel Bierlaire, EPFL
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+   Nothing here
+END
+0	ASC_FREE	F	14.9615	0.273035
+1	ASC_OTHER	F	0.124602	0.29184
+2	ASC_TRANSIT	F	-0.0941517	0.303808
+3	B_COST	F	0.0137963	0.00472747
+4	B_INTL	F	-5.847e-013	13751.7
+5	B_TT	F	0.000615873	0.00152401
+-1
+1596	-1899.53	-2104.41	-1101.29
+  27   0 06/27/16 13:05:10
+ 100144  92680  88992  98996  94984  95051     -6     -5     -6     -6
+   7292   6053 -29955 -13202-2147483648
