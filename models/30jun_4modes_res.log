@@ -1,0 +1,33 @@
+This file has automatically been generated.
+07/01/16 00:31:10
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[00:31:10]patFileNames.cc:52  models/30jun_4modes_res.par does not exist
+[00:31:10]patFileNames.cc:56  Trying default.par instead
+[00:31:10]patBiogeme.cc:134  Read default.par
+ Read headers in models-data/data_30jun.dat
+ 13 headers read in models-data/data_30jun.dat
+ Total number of different headers: 13
+ Read file models/30jun_4modes_res.mod
+Warning:  Lower bound on mu set to 1e-005
+Warning:   Value defined by gevMinimumMu in default.par
+ Opening file models-data/data_30jun.dat
+ Data  file... line 500	Memory: 67 Kb
+ Total obs.:   837
+ Total memory: 112.934 Kb
+ Detailed info in models/30jun_4modes_res.sta
+ Nbr of attributes: 14
+ Nbr of alternatives: 4
+ Sample size: 838
+ Nbr of groups: 1
+ Nbr of betas: 7
+ 59%	[500/838] Est. term. time: 07/01/16 00:31:10 (in 00:00)
+ BIOSIM Input file
+ =================
+ Model specification:	models/30jun_4modes_res.mod
+ BIOSIM Output file
+ ==================
+ Sample enumeration:	models/30jun_4modes_res.enu

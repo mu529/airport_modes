@@ -1,0 +1,79 @@
+// This file has automatically been generated.
+// 07/01/16 00:31:08
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+   Nothing here
+
+                         Model: Logit
+Number of estimated parameters: 6
+        Number of observations: 838
+         Number of individuals: 838
+           Null log likelihood: -985.941
+           Init log likelihood: -985.941
+          Final log likelihood: -596.256
+         Likelihood ratio test: 779.370
+                    Rho-square: 0.395
+           Adjusted rho-square: 0.389
+           Final gradient norm: +7.094e-004
+                    Diagnostic: Convergence reached...
+                    Iterations: 25
+                      Run time: 00:00
+           Variance-covariance: from analytical hessian
+                   Sample file: models-data/data_30jun.dat
+
+Utility parameters
+******************
+Name        Value     Std err   t-test p-val   Rob. std err Rob. t-test Rob. p-val   
+----        -----     -------   ------ -----   ------------ ----------- ----------   
+ASC_FREE    14.1      60.2      0.23   0.81  * 0.391        36.06       0.00         
+ASC_OTHER   -0.986    0.418     -2.36  0.02    0.423        -2.33       0.02         
+ASC_TAXI    0.000     --fixed--                                                      
+ASC_TRANSIT -1.33     0.447     -2.96  0.00    0.436        -3.04       0.00         
+B_COST      -0.00279  0.00683   -0.41  0.68  * 0.00680      -0.41       0.68       * 
+B_TT        0.00234   0.00214   1.09   0.28  * 0.00160      1.46        0.14       * 
+B_VIS       9.32e-012 1.17e+003 0.00   1.00  * 0.0346       0.00        1.00       * 
+
+Utility functions
+*****************
+1	A1_TAXI	av2	ASC_TAXI * one + B_TT * TAXI_TT + B_COST * TAXI_COST + B_VIS * VISITOR
+2	A2_TRANSIT	av1	ASC_TRANSIT * one + B_TT * TRANSIT_TT + B_VIS * VISITOR
+3	A3_OTHER	av3	ASC_OTHER * one + B_VIS * VISITOR
+4	A4_FREE	av4	ASC_FREE * one + B_VIS * VISITOR
+
+
+Correlation of coefficients
+***************************
+Coeff1      Coeff2      Covariance Correlation t-test   Rob. covar. Rob. correl. Rob. t-test   
+------      ------      ---------- ----------- ------   ----------- ------------ -----------   
+B_TT        B_VIS       0.000216   8.61e-005   0.00   * 0.000132    2.39         0.08        * 
+B_COST      B_VIS       4.30e-006  5.36e-007   -0.00  * 9.10e-005   0.387        -0.09       * 
+B_COST      B_TT        -2.93e-006 -0.200      -0.68  * -1.81e-006  -0.167       -0.71       * 
+ASC_OTHER   ASC_TRANSIT 0.168      0.901       1.75   * 0.169       0.918        1.95        * 
+ASC_OTHER   B_TT        -9.93e-006 -0.0111     -2.36    -1.53e-005  -0.0228      -2.34         
+ASC_OTHER   B_VIS       0.00132    2.68e-006   0.00   * 0.00150     0.103        2.35          
+ASC_OTHER   B_COST      0.00272    0.954       -2.39    0.00276     0.962        -2.36         
+ASC_OTHER   B_VIS       0.0135     2.75e-005   -0.00  * 0.0158      1.08         -2.56         
+ASC_TRANSIT B_VIS       -0.0125    -2.38e-005  -0.00  * -0.00533    -0.354       -2.95         
+ASC_TRANSIT B_TT        -0.000330  -0.345      -2.96    -0.000212   -0.304       -3.04         
+ASC_TRANSIT B_COST      0.00293    0.959       -3.00    0.00285     0.959        -3.08         
+ASC_FREE    B_TT        4.93e-005  0.000383    0.23   * 1.37e-005   0.0220       36.05         
+ASC_FREE    B_VIS       -0.00128   -1.82e-008  -0.01  * 0.00113     0.0837       -36.18        
+ASC_FREE    B_COST      0.00253    0.00616     0.23   * 0.00256     0.963        36.68         
+ASC_FREE    B_VIS       -1.65e-006 -2.34e-011  0.01   * 0.0114      0.841        38.90         
+ASC_FREE    ASC_TRANSIT 0.155      0.00576     0.26   * 0.156       0.914        87.27         
+ASC_FREE    ASC_OTHER   0.158      0.00629     0.25   * 0.160       0.970        144.05        
+
+Smallest singular value of the hessian: 7.2616e-007
+
+
+Unidentifiable model
+********************
+The log likelihood is (almost) flat along the following combination of parameters
+Sing. value = 7.2616e-007
+1.00    * B_VIS     
+0.0158  * Param[11] 
+-0.0158 * Param[17] 
+

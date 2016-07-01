@@ -1,0 +1,86 @@
+This file has automatically been generated.
+07/01/16 00:31:08
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[00:31:08]patFileNames.cc:52  models/30jun_4modes.par does not exist
+[00:31:08]patFileNames.cc:56  Trying default.par instead
+[00:31:08]patBiogeme.cc:134  Read default.par
+ Read headers in models-data/data_30jun.dat
+ 13 headers read in models-data/data_30jun.dat
+ Total number of different headers: 13
+ Read file models/30jun_4modes.mod
+ Opening file models-data/data_30jun.dat
+ Data  file... line 500	Memory: 67 Kb
+ Total obs.:   837
+ Total memory: 112.934 Kb
+ Detailed info in models/30jun_4modes.sta
+ Nbr of attributes: 14
+ Nbr of alternatives: 4
+ Sample size: 838
+ Nbr of groups: 1
+ Nbr of betas: 7
+ Run time for data processing: 00:00
+ Dimension of the optimisation problem = 6
+ Utility function: Linear-in-parameters
+ Init loglike=-985.941
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +1.01e+000    1 1.00e+000 +9.8594093e+002 ****Converg  +1.13e+000 6  ++ P
+ +1.01e+000    2 2.00e+000 +9.3080797e+002 ****OutTrReg +9.00e-001 6  +  P
+ +1.01e+000    3 2.00e+000 +6.4609170e+002 ****Converg  +1.20e+000 6  ++ P
+ +1.01e+000    4 4.00e+000 +6.0434878e+002 ****Converg  +1.06e+000 6  ++ P
+ +7.35e-002    5 8.00e+000 +6.0340997e+002 ****Converg  +6.72e-001 6  +  P
+ +4.46e-001    6 8.00e+000 +6.0215621e+002 ****Converg  +1.03e+000 6  ++ P
+ +1.86e-002    7 1.60e+001 +6.0198120e+002 ****Converg  +1.19e+000 6  ++ P
+ +1.18e-001    8 3.20e+001 +5.9800158e+002 ****Converg  +9.93e-001 6  ++ P
+ +1.09e-002    9 6.40e+001 +5.9798700e+002 ****Converg  +1.16e+000 6  ++ P
+ +1.49e-002   10 1.28e+002 +5.9721470e+002 ****Converg  +1.04e+000 6  ++ P
+ +5.78e-003   11 2.56e+002 +5.9673456e+002 ****Converg  +1.03e+000 6  ++ P
+ +2.22e-003   12 5.12e+002 +5.9659281e+002 ****Converg  +1.23e+000 6  ++ P
+ +5.40e-003   13 1.02e+003 +5.9637061e+002 ****Converg  +9.96e-001 6  ++ P
+ +9.26e-004   14 2.05e+003 +5.9636952e+002 ****Converg  +1.26e+000 6  ++ P
+ +1.65e-003   15 4.10e+003 +5.9629703e+002 ****Converg  +9.99e-001 6  ++ P
+ +3.80e-004   16 8.19e+003 +5.9629686e+002 ****Converg  +1.26e+000 6  ++ P
+ +6.58e-004   17 1.64e+004 +5.9627064e+002 ****Converg  +9.99e-001 6  ++ P
+ +1.55e-004   18 3.28e+004 +5.9627062e+002 ****Converg  +1.26e+000 6  ++ P
+ +2.52e-004   19 6.55e+004 +5.9626105e+002 ****Converg  +1.00e+000 6  ++ P
+ +6.26e-005   20 1.31e+005 +5.9626104e+002 ****Converg  +1.26e+000 6  ++ P
+ +9.40e-005   21 2.62e+005 +5.9625753e+002 ****Converg  +1.00e+000 6  ++ P
+ +2.51e-005   22 5.24e+005 +5.9625753e+002 ****Converg  +1.26e+000 6  ++ P
+ +3.47e-005   23 1.05e+006 +5.9625624e+002 ****Converg  +1.00e+000 6  ++ P
+ +9.99e-006   24 2.10e+006 +5.9625624e+002 ****Converg  +1.26e+000 6  ++ P
+ +1.28e-005   25 4.19e+006 +5.9625576e+002 ****Converg  +1.00e+000 6  ++ P
+ Convergence reached...
+ Run time: 00:00
+ Solution = (14.1074	-0.985784	-1.32522	-0.00278864	0.00233689	9.31996e-012	)
+ Gradient = (-0.000276391	-0.000384741	0.000527443	1.46778e-005	2.06186e-005	5.11743e-017	)
+ Final log likelihood=-596.256
+ Be patient... BIOGEME is preparing the output files
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		models/30jun_4modes.mod
+ Sample 1 :				models-data/data_30jun.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		models/30jun_4modes.rep
+ Estimation results (HTML):	models/30jun_4modes.html
+ Estimation results (Latex):	models/30jun_4modes.tex
+ Estimation results (ALogit):	models/30jun_4modes.F12
+ Result model spec. file:	models/30jun_4modes.res
+ Sample statistics:		models/30jun_4modes.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			models/30jun_4modes.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Logit Model
+ ==================
+ The minimum argument of exp was -26.107
+
+ Run time for estimation:      00:00
+ Total run time:               00:00

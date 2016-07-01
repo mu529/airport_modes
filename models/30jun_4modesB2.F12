@@ -1,0 +1,17 @@
+Biogeme models/30jun_4modesB2
+This file [models/30jun_4modesB2.F12] has automatically been generated.
+07/01/16 01:11:44
+Michel Bierlaire, EPFL
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+   Nothing here
+END
+0	ASC_FREE	F	14.3525	0.19675
+1	ASC_OTHER	F	-0.756148	0.120096
+2	ASC_TRANSIT	F	-1.4872	0.159838
+3	B_HYP	F	0.0885157	0.0244879
+4	B_TT	F	0.00403088	0.00185165
+-1
+838	-985.941	-1086.41	-590.567
+  25   0 07/01/16 01:11:44
+  62141 -37700 -14761  18948   9725 -61549  89084  56071 -55437  23688

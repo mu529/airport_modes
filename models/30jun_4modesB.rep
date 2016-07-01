@@ -1,0 +1,86 @@
+// This file has automatically been generated.
+// 07/01/16 01:05:23
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+   Nothing here
+
+                         Model: Logit
+Number of estimated parameters: 7
+        Number of observations: 838
+         Number of individuals: 838
+           Null log likelihood: -985.941
+           Init log likelihood: -985.941
+          Final log likelihood: -590.567
+         Likelihood ratio test: 790.748
+                    Rho-square: 0.401
+           Adjusted rho-square: 0.394
+           Final gradient norm: +9.859e-004
+                    Diagnostic: Convergence reached...
+                    Iterations: 27
+                      Run time: 00:00
+           Variance-covariance: from analytical hessian
+                   Sample file: models-data/data_30junB.dat
+
+Utility parameters
+******************
+Name        Value     Std err   t-test p-val   Rob. std err Rob. t-test Rob. p-val   
+----        -----     -------   ------ -----   ------------ ----------- ----------   
+ASC_FREE    14.8      76.5      0.19   0.85  * 0.475        31.21       0.00         
+ASC_OTHER   -0.763    0.424     -1.80  0.07  * 0.427        -1.79       0.07       * 
+ASC_TAXI    0.000     --fixed--                                                      
+ASC_TRANSIT -1.50     0.476     -3.14  0.00    0.447        -3.34       0.00         
+B_COST      -0.000127 0.00697   -0.02  0.99  * 0.00695      -0.02       0.99       * 
+B_HYP       0.0885    0.0255    3.47   0.00    0.0248       3.57        0.00         
+B_TT        0.00404   0.00335   1.21   0.23  * 0.00183      2.21        0.03         
+B_VIS       5.33e-012 1.80e+308 0.00   1.00  * 1.80e+308    0.00        1.00       * 
+
+Utility functions
+*****************
+1	A1_TAXI	av2	ASC_TAXI * one + B_TT * TAXI_TT + B_COST * TAXI_COST + B_VIS * VISITOR
+2	A2_TRANSIT	av1	ASC_TRANSIT * one + B_TT * TRANSIT_TT + B_VIS * VISITOR + B_HYP * HYPERP
+3	A3_OTHER	av3	ASC_OTHER * one + B_VIS * VISITOR
+4	A4_FREE	av4	ASC_FREE * one + B_VIS * VISITOR
+
+
+Correlation of coefficients
+***************************
+Coeff1      Coeff2      Covariance Correlation t-test   Rob. covar. Rob. correl. Rob. t-test   
+------      ------      ---------- ----------- ------   ----------- ------------ -----------   
+ASC_FREE    ASC_OTHER   0.222      0.00684     -0.20  * 0.226       1.11         0.00        * 
+ASC_FREE    ASC_TRANSIT 0.243      0.00667     -0.21  * 0.244       1.15         0.00        * 
+ASC_FREE    B_VIS       1.07       0.000       0.00   * 288.        0.000        0.00        * 
+ASC_OTHER   B_VIS       300.       0.000       0.00   * 351.        0.000        0.00        * 
+ASC_TRANSIT B_VIS       809.       0.000       0.00   * 598.        0.000        0.00        * 
+B_COST      B_VIS       8.47       0.000       0.00   * 7.12        0.000        0.00        * 
+B_HYP       B_VIS       -20.3      0.000       0.00   * -11.4       0.000        0.00        * 
+B_TT        B_VIS       -5.18      0.000       0.00   * -1.49       0.000        0.00        * 
+B_COST      B_TT        -4.94e-006 -0.211      -0.50  * -1.85e-006  -0.146       -0.56       * 
+ASC_OTHER   B_TT        0.000109   0.0766      -1.81  * 8.76e-006   0.0112       -1.80       * 
+ASC_OTHER   B_COST      0.00275    0.931       -1.83  * 0.00285     0.960        -1.81       * 
+ASC_OTHER   B_HYP       0.00183    0.169       -2.03    0.00197     0.186        -2.01         
+ASC_TRANSIT B_TT        -0.000723  -0.452      -3.14    -0.000268   -0.329       -3.35         
+ASC_TRANSIT B_COST      0.00306    0.922       -3.18    0.00291     0.935        -3.39         
+B_HYP       B_TT        2.29e-005  0.268       3.41     8.92e-006   0.197        3.45          
+ASC_OTHER   ASC_TRANSIT 0.161      0.799       2.52     0.169       0.884        3.47          
+ASC_TRANSIT B_HYP       -0.00188   -0.155      -3.29    -0.000630   -0.0569      -3.52         
+B_COST      B_HYP       1.67e-005  0.0942      -3.44    2.90e-005   0.169        -3.60         
+ASC_FREE    B_TT        0.000806   0.00314     0.19   * 0.000210    0.242        31.23         
+ASC_FREE    B_HYP       0.00310    0.00159     0.19   * 0.00242     0.206        31.32         
+ASC_FREE    B_COST      0.00233    0.00437     0.19   * 0.00261     0.790        31.57         
+ASC_FREE    ASC_TRANSIT 0.111      0.00303     0.21   * 0.146       0.686        44.56         
+ASC_FREE    ASC_OTHER   0.172      0.00532     0.20   * 0.168       0.829        58.17         
+
+Smallest singular value of the hessian: 5.69291e-019
+
+
+Unidentifiable model
+********************
+The log likelihood is (almost) flat along the following combination of parameters
+Sing. value = 5.69291e-019
+-1.00   * B_VIS     
+-0.0158 * Param[13] 
+0.0158  * Param[20] 
+

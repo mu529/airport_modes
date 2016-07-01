@@ -1,13 +1,13 @@
 This file has automatically been generated.
-06/27/16 12:29:34
+07/01/16 00:29:22
 Michel Bierlaire, EPFL
 
 biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
 Michel Bierlaire, EPFL
 
-[12:29:34]patFileNames.cc:52  models/27jun_4modes_res.par does not exist
-[12:29:34]patFileNames.cc:56  Trying default.par instead
-[12:29:34]patBiogeme.cc:134  Read default.par
+[00:29:22]patFileNames.cc:52  models/27jun_4modes_res.par does not exist
+[00:29:22]patFileNames.cc:56  Trying default.par instead
+[00:29:22]patBiogeme.cc:134  Read default.par
  Read headers in models-data/data_26jun.dat
  11 headers read in models-data/data_26jun.dat
  Total number of different headers: 11
@@ -20,18 +20,18 @@ Warning:   Value defined by gevMinimumMu in default.par
  Data  file... line 1500	Memory: 178 Kb
  Total obs.:   1595
  Total memory: 190.148 Kb
- Detailed info in models/27jun_4modes_res.sta
+ Detailed info in models/27jun_4modes_res~1.sta
  Nbr of attributes: 12
  Nbr of alternatives: 4
  Sample size: 1596
  Nbr of groups: 1
  Nbr of betas: 6
- 31%	[500/1596] Est. term. time: 06/27/16 12:29:34 (in 00:00)
- 62%	[1000/1596] Est. term. time: 06/27/16 12:29:34 (in 00:00)
- 93%	[1500/1596] Est. term. time: 06/27/16 12:29:34 (in 00:00)
+ 31%	[500/1596] Est. term. time: 07/01/16 00:29:22 (in 00:00)
+ 62%	[1000/1596] Est. term. time: 07/01/16 00:29:22 (in 00:00)
+ 93%	[1500/1596] Est. term. time: 07/01/16 00:29:22 (in 00:00)
  BIOSIM Input file
  =================
  Model specification:	models/27jun_4modes_res.mod
  BIOSIM Output file
  ==================
- Sample enumeration:	models/27jun_4modes_res.enu
+ Sample enumeration:	models/27jun_4modes_res~1.enu

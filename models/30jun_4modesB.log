@@ -1,0 +1,88 @@
+This file has automatically been generated.
+07/01/16 01:05:23
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[01:05:23]patFileNames.cc:52  models/30jun_4modesB.par does not exist
+[01:05:23]patFileNames.cc:56  Trying default.par instead
+[01:05:23]patBiogeme.cc:134  Read default.par
+ Read headers in models-data/data_30junB.dat
+ 13 headers read in models-data/data_30junB.dat
+ Total number of different headers: 13
+ Read file models/30jun_4modesB.mod
+ Opening file models-data/data_30junB.dat
+ Data  file... line 500	Memory: 74 Kb
+ Total obs.:   837
+ Total memory: 126.027 Kb
+ Detailed info in models/30jun_4modesB.sta
+ Nbr of attributes: 14
+ Nbr of alternatives: 4
+ Sample size: 838
+ Nbr of groups: 1
+ Nbr of betas: 8
+ Run time for data processing: 00:00
+ Dimension of the optimisation problem = 7
+ Utility function: Linear-in-parameters
+ Init loglike=-985.941
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +1.01e+000    1 1.00e+000 +9.8594093e+002 ****Converg  +1.13e+000 7  ++ P
+ +1.01e+000    2 2.00e+000 +9.3080707e+002 ****OutTrReg +9.00e-001 7  ++ P
+ +1.01e+000    3 4.00e+000 +6.4861428e+002 ****Converg  +1.23e+000 7  ++ P
+ +5.95e-001    4 8.00e+000 +6.0306254e+002 ****Converg  -9.85e-003 7  -  P
+ +5.95e-001    5 2.86e-001 +6.0306254e+002 ****OutTrReg +6.72e-001 7  +  P
+ +9.13e-001    6 2.86e-001 +5.9987859e+002 ****Converg  +9.82e-001 7  ++ P
+ +1.65e-001    7 5.71e-001 +5.9737155e+002 ****Converg  +1.05e+000 7  ++ P
+ +1.75e-002    8 1.14e+000 +5.9588499e+002 ****OutTrReg +1.25e+000 7  ++ P
+ +9.74e-002    9 2.28e+000 +5.9276581e+002 ****Converg  +1.00e+000 7  ++ P
+ +8.65e-003   10 4.57e+000 +5.9275370e+002 ****Converg  +1.12e+000 7  ++ P
+ +5.20e-002   11 9.14e+000 +5.9108789e+002 ****Converg  +9.96e-001 7  ++ P
+ +3.55e-003   12 1.83e+001 +5.9108437e+002 ****Converg  +1.26e+000 7  ++ P
+ +1.46e-002   13 3.66e+001 +5.9075567e+002 ****Converg  +9.98e-001 7  ++ P
+ +1.49e-003   14 7.31e+001 +5.9075537e+002 ****Converg  +1.26e+000 7  ++ P
+ +5.86e-003   15 1.46e+002 +5.9063588e+002 ****Converg  +9.99e-001 7  ++ P
+ +6.19e-004   16 2.92e+002 +5.9063583e+002 ****Converg  +1.26e+000 7  ++ P
+ +2.36e-003   17 5.85e+002 +5.9059209e+002 ****Converg  +1.00e+000 7  ++ P
+ +2.53e-004   18 1.17e+003 +5.9059208e+002 ****Converg  +1.26e+000 7  ++ P
+ +9.00e-004   19 2.34e+003 +5.9057602e+002 ****Converg  +1.00e+000 7  ++ P
+ +1.03e-004   20 4.68e+003 +5.9057602e+002 ****Converg  +1.26e+000 7  ++ P
+ +3.35e-004   21 9.36e+003 +5.9057012e+002 ****Converg  +1.00e+000 7  ++ P
+ +4.12e-005   22 1.87e+004 +5.9057012e+002 ****Converg  +1.26e+000 7  ++ P
+ +1.24e-004   23 3.74e+004 +5.9056795e+002 ****Converg  +1.00e+000 7  ++ P
+ +1.65e-005   24 7.49e+004 +5.9056795e+002 ****Converg  +1.26e+000 7  ++ P
+ +4.55e-005   25 1.50e+005 +5.9056715e+002 ****Converg  +1.00e+000 7  ++ P
+ +6.52e-006   26 2.99e+005 +5.9056715e+002 ****Converg  +1.26e+000 7  ++ P
+ +1.68e-005   27 5.99e+005 +5.9056686e+002 ****Converg  +9.97e-001 7  ++ P
+ Convergence reached...
+ Run time: 00:00
+ Solution = (14.8389	-0.763359	-1.49523	-0.000127345	0.0884717	0.00404384	5.32981e-012	)
+ Gradient = (-0.000170971	0.000258669	-0.000100031	-0.000274437	-5.62014e-005	-0.000887369	1.32967e-015	)
+ Final log likelihood=-590.567
+ Be patient... BIOGEME is preparing the output files
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		models/30jun_4modesB.mod
+ Sample 1 :				models-data/data_30junB.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		models/30jun_4modesB.rep
+ Estimation results (HTML):	models/30jun_4modesB.html
+ Estimation results (Latex):	models/30jun_4modesB.tex
+ Estimation results (ALogit):	models/30jun_4modesB.F12
+ Result model spec. file:	models/30jun_4modesB.res
+ Sample statistics:		models/30jun_4modesB.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			models/30jun_4modesB.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Logit Model
+ ==================
+ The minimum argument of exp was -25.9752
+
+ Run time for estimation:      00:00
+ Total run time:               00:00
