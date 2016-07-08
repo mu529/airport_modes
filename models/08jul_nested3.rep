@@ -1,0 +1,104 @@
+// This file has automatically been generated.
+// 07/08/16 13:51:18
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+   Nothing here
+
+                         Model: Nested Logit
+Number of estimated parameters: 8
+        Number of observations: 838
+         Number of individuals: 838
+           Null log likelihood: -985.941
+           Init log likelihood: -985.941
+          Final log likelihood: -593.497
+         Likelihood ratio test: 784.887
+                    Rho-square: 0.398
+           Adjusted rho-square: 0.390
+           Final gradient norm: +5.826e-003
+                    Diagnostic: Convergence reached...
+                    Iterations: 37
+                      Run time: 00:00
+           Variance-covariance: from finite difference hessian
+                   Sample file: models-data/data_30junB.dat
+
+Utility parameters
+******************
+Name        Value    Std err   t-test p-val   Rob. std err Rob. t-test Rob. p-val   
+----        -----    -------   ------ -----   ------------ ----------- ----------   
+ASC_FREE    74.3     7.82e+003 0.01   0.99  * 1.80e+308    0.00        1.00       * 
+ASC_OTHER   -0.573   66.3      -0.01  0.99  * 0.663        -0.86       0.39       * 
+ASC_TAXI    0.000    --fixed--                                                      
+ASC_TRANSIT -1.92    222.      -0.01  0.99  * 1.07         -1.79       0.07       * 
+B_COST      -0.0112  1.29      -0.01  0.99  * 0.0168       -0.66       0.51       * 
+B_TT1       -0.00208 0.242     -0.01  0.99  * 0.0165       -0.13       0.90       * 
+B_TT2       0.00231  0.268     0.01   0.99  * 0.00183      1.26        0.21       * 
+B_TT3       -0.0299  3.46      -0.01  0.99  * 0.0176       -1.70       0.09       * 
+Model parameters
+******************
+Name    Value Std err   t-test(0) p-val(0) t-test(1) p-val(1)   Rob. std err Rob. t-test(0) Rob. p-val(0) Rob. t-test(1) Rob. p-val(1)   
+----    ----- -------   --------- -------- --------- --------   ------------ -------------- ------------- -------------- -------------   
+NOCOST  1.00  --fixed--                                                                                                                  
+NOTFREE 1.00  116.      0.01      0.99     0.00      1.00     * 0.533        1.88           0.06          0.00           1.00          * 
+
+
+Utility functions
+*****************
+1	A1_TAXI	av2	ASC_TAXI * one + B_TT1 * TAXI_TT + B_COST * TAXI_COST
+2	A2_TRANSIT	av1	ASC_TRANSIT * one + B_TT2 * TRANSIT_TT + B_COST * TRANSIT_COST
+3	A3_OTHER	av3	ASC_OTHER * one + B_TT3 * TAXI_TT
+4	A4_FREE	av4	ASC_FREE * one
+
+
+Correlation of coefficients
+***************************
+Coeff1      Coeff2      Covariance Correlation t-test   Rob. covar. Rob. correl. Rob. t-test   
+------      ------      ---------- ----------- ------   ----------- ------------ -----------   
+ASC_FREE    ASC_OTHER   9.87e+009  1.90e+004   0.00   * 1.61e+010   0.000        0.00        * 
+ASC_FREE    ASC_TRANSIT -4.75e+009 -2.74e+003  0.00   * 1.39e+010   0.000        0.00        * 
+ASC_FREE    B_COST      1.05e+008  1.04e+004   0.00   * 2.29e+008   0.000        0.00        * 
+ASC_FREE    B_TT1       -2.33e+008 -1.23e+005  0.00   * -2.54e+008  0.000        0.00        * 
+ASC_FREE    B_TT2       1.50e+007  7.17e+003   0.01   * -8.90e+006  0.000        0.00        * 
+ASC_FREE    B_TT3       -3.28e+008 -1.21e+004  0.00   * -5.47e+007  0.000        0.00        * 
+B_TT1       B_TT2       -0.0646    -0.998      -0.01  * 1.36e-005   0.449        -0.28       * 
+B_COST      B_TT1       0.312      0.997       -0.01  * -0.000207   -0.748       -0.29       * 
+B_COST      B_TT2       -0.346     -1.00       -0.01  * -1.45e-005  -0.470       -0.76       * 
+ASC_OTHER   B_TT3       230.       1.00        -0.01  * 0.00457     0.392        -0.83       * 
+ASC_OTHER   B_TT1       16.0       0.997       -0.01  * -0.00579    -0.530       -0.85       * 
+ASC_OTHER   B_COST      85.7       1.00        -0.01  * 0.00901     0.809        -0.86       * 
+ASC_OTHER   B_TT2       -17.7      -1.00       -0.01  * -0.000438   -0.360       -0.87       * 
+B_TT1       B_TT3       0.836      0.998       0.01   * -9.25e-005  -0.319       1.01        * 
+B_COST      B_TT3       4.48       1.00        0.01   * 0.000223    0.756        1.56        * 
+ASC_TRANSIT B_TT1       53.5       0.998       -0.01  * -0.00971    -0.550       -1.77       * 
+ASC_TRANSIT B_TT3       769.       1.00        -0.01  * 0.0151      0.803        -1.78       * 
+B_TT2       B_TT3       -0.927     -1.00       0.01   * -5.79e-006  -0.180       1.79        * 
+ASC_TRANSIT B_TT2       -59.4      -1.00       -0.01  * -0.000798   -0.406       -1.79       * 
+ASC_TRANSIT B_COST      287.       1.00        -0.01  * 0.0173      0.961        -1.81       * 
+ASC_OTHER   ASC_TRANSIT 1.47e+004  1.00        0.01   * 0.605       0.852        2.19          
+
+Smallest singular value of the hessian: 3.98901e-014
+
+
+Unidentifiable model
+********************
+The log likelihood is (almost) flat along the following combination of parameters
+Sing. value = 3.98901e-014
+-1.00   * ASC_FREE  
+-0.0153 * Param[8]  
+0.0164  * Param[16] 
+
+Sing. value = 2.1255e-008
+-0.0125   * ASC_OTHER   
+-0.0419   * ASC_TRANSIT 
+-0.000244 * B_COST      
+-0.000654 * B_TT3       
+-0.0219   * NOTFREE     
+-0.000198 * Param[9]    
+-0.000664 * Param[10]   
+-0.999    * Param[15]   
+0.000198  * Param[17]   
+0.000662  * Param[18]   
+0.00365   * Param[23]   
+

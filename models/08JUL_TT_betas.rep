@@ -1,0 +1,68 @@
+// This file has automatically been generated.
+// 07/08/16 13:27:52
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+   Nothing here
+
+                         Model: Logit
+Number of estimated parameters: 6
+        Number of observations: 838
+         Number of individuals: 838
+           Null log likelihood: -985.941
+           Init log likelihood: -985.941
+          Final log likelihood: -590.195
+         Likelihood ratio test: 791.492
+                    Rho-square: 0.401
+           Adjusted rho-square: 0.395
+           Final gradient norm: +1.568e-003
+                    Diagnostic: Convergence reached...
+                    Iterations: 26
+                      Run time: 00:00
+           Variance-covariance: from analytical hessian
+                   Sample file: models-data/data_30junB.dat
+
+Utility parameters
+******************
+Name        Value   Std err   t-test p-val   Rob. std err Rob. t-test Rob. p-val   
+----        -----   -------   ------ -----   ------------ ----------- ----------   
+ASC_FREE    14.3    51.2      0.28   0.78  * 0.323        44.09       0.00         
+ASC_OTHER   -0.491  0.340     -1.45  0.15  * 0.344        -1.43       0.15       * 
+ASC_TAXI    0.000   --fixed--                                                      
+ASC_TRANSIT -1.18   0.391     -3.01  0.00    0.358        -3.29       0.00         
+B_HYP       0.0928  0.0255    3.64   0.00    0.0253       3.67        0.00         
+B_TT1       0.0114  0.00901   1.26   0.21  * 0.00910      1.25        0.21       * 
+B_TT2       0.00325 0.00280   1.16   0.25  * 0.00148      2.20        0.03         
+
+Utility functions
+*****************
+1	A1_TAXI	av2	ASC_TAXI * one + B_TT1 * TAXI_TT
+2	A2_TRANSIT	av1	ASC_TRANSIT * one + B_TT2 * TRANSIT_TT + B_HYP * HYPERP
+3	A3_OTHER	av3	ASC_OTHER * one
+4	A4_FREE	av4	ASC_FREE * one
+
+
+Correlation of coefficients
+***************************
+Coeff1      Coeff2      Covariance Correlation t-test   Rob. covar. Rob. correl. Rob. t-test   
+------      ------      ---------- ----------- ------   ----------- ------------ -----------   
+B_TT1       B_TT2       6.34e-007  0.0251      0.87   * -5.74e-007  -0.0427      0.87        * 
+ASC_OTHER   B_TT2       2.26e-005  0.0237      -1.46  * -2.26e-005  -0.0444      -1.44       * 
+ASC_OTHER   B_TT1       0.00293    0.956       -1.52  * 0.00300     0.957        -1.50       * 
+ASC_OTHER   B_HYP       0.00222    0.256       -1.75  * 0.00259     0.297        -1.73       * 
+ASC_TRANSIT B_TT2       -0.000551  -0.504      -3.01    -0.000199   -0.375       -3.29         
+ASC_TRANSIT B_TT1       0.00274    0.779       -3.10    0.00282     0.865        -3.39         
+B_HYP       B_TT1       6.21e-005  0.270       3.30     7.54e-005   0.328        3.41          
+ASC_TRANSIT B_HYP       -0.000765  -0.0768     -3.23    0.000325    0.0359       -3.55         
+B_HYP       B_TT2       1.26e-005  0.176       3.56     3.83e-006   0.103        3.56          
+ASC_OTHER   ASC_TRANSIT 0.102      0.767       2.70     0.105       0.855        3.62          
+ASC_FREE    B_TT2       0.000269   0.00188     0.28   * 4.52e-005   0.0945       44.09         
+ASC_FREE    B_HYP       0.00246    0.00188     0.28   * 0.00261     0.319        44.79         
+ASC_FREE    B_TT1       0.00281    0.00609     0.28   * 0.00283     0.960        45.27         
+ASC_FREE    ASC_TRANSIT 0.0802     0.00401     0.30   * 0.0942      0.813        73.17         
+ASC_FREE    ASC_OTHER   0.104      0.00599     0.29   * 0.105       0.945        130.52        
+
+Smallest singular value of the hessian: 0.000380925
+

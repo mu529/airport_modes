@@ -1,0 +1,33 @@
+This file has automatically been generated.
+07/08/16 13:28:03
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[13:28:03]patFileNames.cc:52  models/08JUL_TT_betas_res.par does not exist
+[13:28:03]patFileNames.cc:56  Trying default.par instead
+[13:28:03]patBiogeme.cc:134  Read default.par
+ Read headers in models-data/data_30junB.dat
+ 13 headers read in models-data/data_30junB.dat
+ Total number of different headers: 13
+ Read file models/08JUL_TT_betas_res.mod
+Warning:  Lower bound on mu set to 1e-005
+Warning:   Value defined by gevMinimumMu in default.par
+ Opening file models-data/data_30junB.dat
+ Data  file... line 500	Memory: 59 Kb
+ Total obs.:   837
+ Total memory: 99.8398 Kb
+ Detailed info in models/08JUL_TT_betas_res.sta
+ Nbr of attributes: 14
+ Nbr of alternatives: 4
+ Sample size: 838
+ Nbr of groups: 1
+ Nbr of betas: 7
+ 59%	[500/838] Est. term. time: 07/08/16 13:28:03 (in 00:00)
+ BIOSIM Input file
+ =================
+ Model specification:	models/08JUL_TT_betas_res.mod
+ BIOSIM Output file
+ ==================
+ Sample enumeration:	models/08JUL_TT_betas_res.enu

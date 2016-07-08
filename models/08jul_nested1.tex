@@ -1,0 +1,68 @@
+%% This file is designed to be included into a LaTeX document
+%% See http://www.latex-project.org/ for information about LaTeX
+%% biogeme 2.4
+%% Compiled Sun Oct 25 23:01:47 WEST 2015
+%% Michel Bierlaire, EPFL
+%% Report created on 07/08/16 13:39:34
+Nothing here\\
+
+
+\begin{flushleft}
+\begin{tabular}{rcl}
+\hline
+Model &:& Nested Logit\\
+Number of estimated parameters&:&7\\
+Number of  observations &:& 838\\
+Number of individuals&:&838\\
+Null log likelihood&:&-985.941\\
+Init log likelihood&:&-985.941\\
+Final log likelihood&:&-590.220\\
+Likelihood ratio test &:&791.442\\
+Rho-square&:&0.401\\
+Adjusted rho-square&:&0.394\\
+Final gradient norm&:&+4.380e+000\\
+Diagnostic&:&Maximum number of iterations reached\\
+Iterations&:&1000\\
+Run time&:&00:10\\
+Variance-covariance&:&from finite difference hessian\\
+Sample file&:&models-data/data_30junB.dat\\
+\end{tabular}
+\end{flushleft}
+%%
+%%
+%%
+  \begin{tabular}{l}
+\begin{tabular}{rlr@{.}lr@{.}lr@{.}lr@{.}l}
+         &                       &   \multicolumn{2}{l}{}    & \multicolumn{2}{l}{Robust}  &     \multicolumn{4}{l}{}   \\
+Parameter &                       &   \multicolumn{2}{l}{Coeff.}      & \multicolumn{2}{l}{Asympt.}  &     \multicolumn{4}{l}{}   \\
+number &  Description                     &   \multicolumn{2}{l}{estimate}      & \multicolumn{2}{l}{std. error}  &   \multicolumn{2}{l}{$t$-stat}  &   \multicolumn{2}{l}{$p$-value}   \\
+
+\hline
+
+1 & ASC\_FREE & 9&66 & 0&124 & 78&17 & 0&00 \\
+2 & ASC\_OTHER & -0&286 & 0&310 & -0&92 & 0&36 \\
+3 & ASC\_TRANSIT & -0&682 & 0&459 & -1&48 & 0&14 \\
+4 & B\_HYP & 0&0537 & 0&0248 & 2&17 & 0&03 \\
+5 & B\_TT1 & 0&00654 & 0&00320 & 2&05 & 0&04 \\
+6 & B\_TT2 & 0&00187 & 0&000905 & 2&07 & 0&04 \\
+\hline
+7 & NOTFREE & 1&73 & 0&737 & 0&99\footnotemark[1] & 0&32 \\
+\hline
+
+\end{tabular}
+\\
+\begin{tabular}{rcl}
+\multicolumn{3}{l}{\bf Summary statistics}\\
+\multicolumn{3}{l}{ Number of observations = $838$} \\
+ $\mathcal{L}(0)$ &=&  $-985.941$ \\
+ $\mathcal{L}(c)$ &=& ???\\
+ $\mathcal{L}(\hat{\beta})$ &=& $-590.220 $  \\
+ $-2[\mathcal{L}(0) -\mathcal{L}(\hat{\beta})]$ &=& $791.442$ \\
+    $\rho^2$ &=&   $0.401$ \\
+    $\bar{\rho}^2$ &=&    $0.394$ \\
+\end{tabular}
+\end{tabular}
+\footnotetext[1]{$t$-test against 1} 
+\end{document}
+%%% Another joint format
+%%%

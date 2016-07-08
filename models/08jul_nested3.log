@@ -1,0 +1,108 @@
+This file has automatically been generated.
+07/08/16 13:51:17
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[13:51:17]patFileNames.cc:52  models/08jul_nested3.par does not exist
+[13:51:17]patFileNames.cc:56  Trying default.par instead
+[13:51:17]patBiogeme.cc:134  Read default.par
+ Read headers in models-data/data_30junB.dat
+ 13 headers read in models-data/data_30junB.dat
+ Total number of different headers: 13
+ Read file models/08jul_nested3.mod
+ Opening file models-data/data_30junB.dat
+ Data  file... line 500	Memory: 67 Kb
+ Total obs.:   837
+ Total memory: 112.934 Kb
+ Detailed info in models/08jul_nested3.sta
+ Nbr of attributes: 14
+ Nbr of alternatives: 4
+ Sample size: 838
+ Nbr of groups: 1
+ Nbr of betas: 8
+ Run time for data processing: 00:01
+ Dimension of the optimisation problem = 8
+ Utility function: Linear-in-parameters
+ Init loglike=-985.941
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +1.01e+000    1 1.00e+000 +9.8594093e+002 ****Converg  +1.40e+000 8  ++ P
+ +1.01e+000    2 2.00e+000 +8.3073510e+002 ****Converg  +1.24e+000 8  ++ P
+ +1.01e+000    3 4.00e+000 +6.6798918e+002 ****Converg  +1.36e-001 8  +  P
+ +1.01e+000    4 4.00e+000 +6.5455495e+002 ****Converg  +1.06e+000 8  ++ P
+ +1.01e+000    5 8.00e+000 +6.1628707e+002 ****Converg  +1.36e+000 8  ++ P
+ +1.01e+000    6 1.60e+001 +6.0544497e+002 ****Converg  +1.54e+000 8  ++ P
+ +7.33e-001    7 3.20e+001 +6.0496288e+002 ****Converg  +1.25e+000 8  ++ P
+ +2.13e-001    8 6.40e+001 +6.0108079e+002 ****OutTrReg -3.80e-002 8  -  P
+ +2.13e-001    9 9.47e+000 +6.0108079e+002 ****OutTrReg +2.24e-002 8  +  P
+ +5.46e-001   10 9.47e+000 +6.0002593e+002 ****OutTrReg +1.18e+000 8  ++ P
+ +5.48e-001   11 1.89e+001 +5.9523452e+002 ****OutTrReg -7.35e-321 8  -  P
+ +5.48e-001   12 1.89e+001 +5.9523452e+002 ****OutTrReg +9.90e-001 8  ++
+ +1.85e-001   13 3.79e+001 +5.9494444e+002 ****Converg  +9.64e-001 7  ++
+ +2.83e-002   14 7.58e+001 +5.9471172e+002 ****Converg  +1.05e+000 7  ++
+ +2.87e-001   15 1.52e+002 +5.9369965e+002 ****Converg  +1.36e+000 7  ++
+ +8.35e-002   16 3.03e+002 +5.9360968e+002 ****Converg  +1.06e+000 7  ++
+ +4.46e-003   17 6.06e+002 +5.9359513e+002 ****Converg  +1.03e+000 7  ++
+ +4.30e-003   18 1.21e+003 +5.9351410e+002 ****Converg  +8.62e-001 7  + 
+ +2.53e-003   19 1.21e+003 +5.9351395e+002 ****Converg  +1.11e+000 7  ++
+ +6.51e-003   20 2.42e+003 +5.9350092e+002 ****Converg  +7.72e-001 7  + 
+ +1.84e-003   21 2.42e+003 +5.9350086e+002 ****Converg  +9.33e-001 7  ++
+ +3.56e-004   22 4.85e+003 +5.9350084e+002 ****Converg  +1.00e+000 7  ++
+ +1.03e-003   23 9.70e+003 +5.9349823e+002 ****Converg  +8.82e-001 7  + 
+ +1.59e-004   24 9.70e+003 +5.9349822e+002 ****Converg  +7.77e-001 7  + 
+ +5.62e-005   25 9.70e+003 +5.9349822e+002 ****Converg  +7.51e-001 7  + 
+ +1.47e-005   26 9.70e+003 +5.9349822e+002 ****Converg  +1.09e+000 7  ++
+ +3.52e-005   27 1.94e+004 +5.9349822e+002 ****Converg  +7.67e-001 7  + 
+ +1.16e-005   28 1.94e+004 +5.9349822e+002 ****Converg  +9.40e-001 7  ++
+ +9.38e-006   29 3.88e+004 +5.9349822e+002 ****OutTrReg +1.01e-003 7  - 
+ +9.38e-006   30 4.94e+002 +5.9349822e+002 ****OutTrReg +2.02e-003 7  - 
+ +9.38e-006   31 2.47e+002 +5.9349822e+002 ****OutTrReg +4.05e-003 7  - 
+ +9.38e-006   32 1.23e+002 +5.9349822e+002 ****OutTrReg +8.10e-003 7  - 
+ +9.38e-006   33 6.17e+001 +5.9349822e+002 ****OutTrReg +1.62e-002 7  + 
+ +6.86e-004   34 6.17e+001 +5.9349749e+002 ****Converg  +9.04e-001 7  ++
+ +1.43e-004   35 1.23e+002 +5.9349749e+002 ****Converg  +8.74e-001 8  + 
+ +1.75e-005   36 1.23e+002 +5.9349749e+002 ****Converg  +1.08e+000 8  ++
+ +2.01e-005   37 2.47e+002 +5.9349749e+002 ****Converg  +7.54e-001 8  + 
+ Convergence reached...
+ Run time: 00:00
+ Solution = (74.2678	-0.572515	-1.91656	-0.0111672	-0.0020839	0.00231237	-0.0299103	1.00012	)
+ Gradient = (0	-7.57421e-005	9.02179e-005	8.46567e-005	0.00144105	-0.0056348	-0.00027539	-0.000138269	)
+ Final log likelihood=-593.497
+ Be patient... BIOGEME is preparing the output files
+ Compute hessian by finite difference
+ You can interrupt it by creating a file named STOP
+ 0%	[1/8] Est. term. time: 07/08/16 13:51:18 (in 00:00)
+ 10%	[2/8] Est. term. time: 07/08/16 13:51:18 (in 00:00)
+ 20%	[3/8] Est. term. time: 07/08/16 13:51:18 (in 00:00)
+ 30%	[4/8] Est. term. time: 07/08/16 13:51:18 (in 00:00)
+ 40%	[5/8] Est. term. time: 07/08/16 13:51:18 (in 00:00)
+ 50%	[6/8] Est. term. time: 07/08/16 13:51:18 (in 00:00)
+ 60%	[7/8] Est. term. time: 07/08/16 13:51:18 (in 00:00)
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		models/08jul_nested3.mod
+ Sample 1 :				models-data/data_30junB.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		models/08jul_nested3.rep
+ Estimation results (HTML):	models/08jul_nested3.html
+ Estimation results (Latex):	models/08jul_nested3.tex
+ Estimation results (ALogit):	models/08jul_nested3.F12
+ Result model spec. file:	models/08jul_nested3.res
+ Sample statistics:		models/08jul_nested3.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			models/08jul_nested3.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Nested Logit Model
+ ==================
+ The minimum argument of exp was -1002.54
+Underflows: 681
+
+ Run time for estimation:      00:00
+ Total run time:               00:01
