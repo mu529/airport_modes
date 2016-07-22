@@ -1,5 +1,5 @@
 // This file has automatically been generated.
-// 07/08/16 13:39:34
+// 07/08/16 13:38:03
 // Michel Bierlaire, EPFL
 // biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
 // Michel Bierlaire, EPFL
@@ -21,13 +21,13 @@ $NONE
 
 [Beta]
 // Name Value  LowerBound UpperBound  status (0=variable, 1=fixed)
-ASC_FREE	9.65832	-1000	1000	0
-ASC_OTHER	-0.285569	-1000	1000	0
+ASC_FREE	14.2584	-1000	1000	0
+ASC_OTHER	-0.491334	-1000	1000	0
 ASC_TAXI	0	-1000	1000	1
-ASC_TRANSIT	-0.682076	-1000	1000	0
-B_HYP	0.0536561	-1000	1000	0
-B_TT1	0.00654069	-1000	1000	0
-B_TT2	0.00186963	-1000	1000	0
+ASC_TRANSIT	-1.17781	-1000	1000	0
+B_HYP	0.0927799	-1000	1000	0
+B_TT1	0.0113647	-1000	1000	0
+B_TT2	0.00324816	-1000	1000	0
 
 [LaTeX]
 $NONE
@@ -97,8 +97,8 @@ $NONE
 //$BP  // Binary Probit Model
 //$OL // Ordinal logit
 
-//$MNL  // Logit Model
-$NL  // Nested Logit Model
+$MNL  // Logit Model
+//$NL  // Nested Logit Model
 //$CNL  // Cross-Nested Logit Model
 //$NGEV // Network GEV Model
 
@@ -113,8 +113,7 @@ $NL  // Nested Logit Model
 1	1	1	1	1
 [NLNests]
 // Name paramvalue  LowerBound UpperBound  status list of alt
-NOCOST	1	1	10	1 4
-NOTFREE	1.72838	1	10	 0 1 2 3
+$NONE
 [CNLNests]
 // Name paramvalue LowerBound UpperBound  status 
 $NONE

@@ -1,0 +1,33 @@
+This file has automatically been generated.
+07/22/16 09:43:50
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[09:43:50]patFileNames.cc:52  models/22jul_no_TT_visitor_res.par does not exist
+[09:43:50]patFileNames.cc:56  Trying default.par instead
+[09:43:50]patBiogeme.cc:134  Read default.par
+ Read headers in models-data/data_30junB.dat
+ 13 headers read in models-data/data_30junB.dat
+ Total number of different headers: 13
+ Read file models/22jul_no_TT_visitor_res.mod
+Warning:  Lower bound on mu set to 1e-005
+Warning:   Value defined by gevMinimumMu in default.par
+ Opening file models-data/data_30junB.dat
+ Data  file... line 500	Memory: 51 Kb
+ Total obs.:   837
+ Total memory: 86.7461 Kb
+ Detailed info in models/22jul_no_TT_visitor_res.sta
+ Nbr of attributes: 14
+ Nbr of alternatives: 4
+ Sample size: 838
+ Nbr of groups: 1
+ Nbr of betas: 6
+ 59%	[500/838] Est. term. time: 07/22/16 09:43:50 (in 00:00)
+ BIOSIM Input file
+ =================
+ Model specification:	models/22jul_no_TT_visitor_res.mod
+ BIOSIM Output file
+ ==================
+ Sample enumeration:	models/22jul_no_TT_visitor_res.enu

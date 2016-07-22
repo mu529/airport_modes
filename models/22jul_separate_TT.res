@@ -1,5 +1,5 @@
 // This file has automatically been generated.
-// 07/08/16 13:38:03
+// 07/22/16 09:33:48
 // Michel Bierlaire, EPFL
 // biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
 // Michel Bierlaire, EPFL
@@ -49,7 +49,7 @@ $NONE
 [SampleEnum]
 // Relevant for biosim only
 // Number of simulated choices to include in the sample enumeration file
-100
+0
 
 [Utilities]
 // Id Name  Avail  linear-in-parameter expression (beta1*x1 + beta2*x2 + ... )

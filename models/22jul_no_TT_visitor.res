@@ -1,5 +1,5 @@
 // This file has automatically been generated.
-// 07/08/16 13:38:03
+// 07/22/16 09:42:41
 // Michel Bierlaire, EPFL
 // biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
 // Michel Bierlaire, EPFL
@@ -21,13 +21,12 @@ $NONE
 
 [Beta]
 // Name Value  LowerBound UpperBound  status (0=variable, 1=fixed)
-ASC_FREE	14.2584	-1000	1000	0
-ASC_OTHER	-0.491334	-1000	1000	0
+ASC_FREE	13.5099	-1000	1000	0
+ASC_OTHER	-1.12366	-1000	1000	0
 ASC_TAXI	0	-1000	1000	1
-ASC_TRANSIT	-1.17781	-1000	1000	0
-B_HYP	0.0927799	-1000	1000	0
-B_TT1	0.0113647	-1000	1000	0
-B_TT2	0.00324816	-1000	1000	0
+ASC_TRANSIT	-1.33349	-1000	1000	0
+B_HYP	0.0811343	-1000	1000	0
+B_VIS	-0.428312	-1000	1000	0
 
 [LaTeX]
 $NONE
@@ -49,12 +48,12 @@ $NONE
 [SampleEnum]
 // Relevant for biosim only
 // Number of simulated choices to include in the sample enumeration file
-100
+0
 
 [Utilities]
 // Id Name  Avail  linear-in-parameter expression (beta1*x1 + beta2*x2 + ... )
-1	A1_TAXI	av2	ASC_TAXI * one + B_TT1 * TAXI_TT
-2	A2_TRANSIT	av1	ASC_TRANSIT * one + B_TT2 * TRANSIT_TT + B_HYP * HYPERP
+1	A1_TAXI	av2	ASC_TAXI * one + B_VIS * VISITOR
+2	A2_TRANSIT	av1	ASC_TRANSIT * one + B_VIS * VISITOR + B_HYP * HYPERP
 3	A3_OTHER	av3	ASC_OTHER * one
 4	A4_FREE	av4	ASC_FREE * one
 

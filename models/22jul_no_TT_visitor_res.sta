@@ -1,4 +1,4 @@
-++++++++ 07/08/16 13:38:03 ++++++++
+++++++++ 07/22/16 09:43:50 ++++++++
 Sample size=838
 Excluded Obs.:       0
 Total obs. in files: 837
@@ -8,8 +8,7 @@ Statistics of attributes
 Name	Nbr	Mean	Min	Max	Recommended/Conservative upper bounds for Box-Cox
 CHOICE	838	2.29201	1	4	
 HYPERP	838	2.62037	0.157971	16.6474	
-TAXI_TT	838	35.1513	7.91005	65.8556	
-TRANSIT_TT	838	70.883	31.4667	999.99	
+VISITOR	838	0.486293	0	1	
 one	838	1	1	1	
 Nbr of times alternatives are available
 Alt	#

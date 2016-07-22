@@ -1,22 +1,22 @@
 This file has automatically been generated.
-07/08/16 13:38:03
+07/22/16 09:33:48
 Michel Bierlaire, EPFL
 
 biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
 Michel Bierlaire, EPFL
 
-[13:38:03]patFileNames.cc:52  models/08jul_nested1.par does not exist
-[13:38:03]patFileNames.cc:56  Trying default.par instead
-[13:38:03]patBiogeme.cc:134  Read default.par
+[09:33:48]patFileNames.cc:52  models/22jul_separate_TT.par does not exist
+[09:33:48]patFileNames.cc:56  Trying default.par instead
+[09:33:48]patBiogeme.cc:134  Read default.par
  Read headers in models-data/data_30junB.dat
  13 headers read in models-data/data_30junB.dat
  Total number of different headers: 13
- Read file models/08jul_nested1.mod
+ Read file models/22jul_separate_TT.mod
  Opening file models-data/data_30junB.dat
  Data  file... line 500	Memory: 59 Kb
  Total obs.:   837
  Total memory: 99.8398 Kb
- Detailed info in models/08jul_nested1.sta
+ Detailed info in models/22jul_separate_TT.sta
  Nbr of attributes: 14
  Nbr of alternatives: 4
  Sample size: 838
@@ -63,19 +63,19 @@ Michel Bierlaire, EPFL
  BIOGEME Input files
  ===================
  Parameters:			default.par
- Model specification:		models/08jul_nested1.mod
+ Model specification:		models/22jul_separate_TT.mod
  Sample 1 :				models-data/data_30junB.dat
  BIOGEME Output files
  ====================
- Estimation results:		models/08jul_nested1.rep
- Estimation results (HTML):	models/08jul_nested1.html
- Estimation results (Latex):	models/08jul_nested1.tex
- Estimation results (ALogit):	models/08jul_nested1.F12
- Result model spec. file:	models/08jul_nested1.res
- Sample statistics:		models/08jul_nested1.sta
+ Estimation results:		models/22jul_separate_TT.rep
+ Estimation results (HTML):	models/22jul_separate_TT.html
+ Estimation results (Latex):	models/22jul_separate_TT.tex
+ Estimation results (ALogit):	models/22jul_separate_TT.F12
+ Result model spec. file:	models/22jul_separate_TT.res
+ Sample statistics:		models/22jul_separate_TT.sta
  BIOGEME Debug files
  ===================
- Log file:			models/08jul_nested1.log
+ Log file:			models/22jul_separate_TT.log
  Parameters debug:		parameters.out
  Model debug:			model.debug
  Model spec. file debug:		__specFile.debug
@@ -83,5 +83,5 @@ Michel Bierlaire, EPFL
  ==================
  The minimum argument of exp was -27.7802
 
- Run time for estimation:      00:00
- Total run time:               00:00
+ Run time for estimation:      00:01
+ Total run time:               00:01

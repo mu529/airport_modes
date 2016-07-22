@@ -1,0 +1,17 @@
+Biogeme models/22jul_no_TT_visitor
+This file [models/22jul_no_TT_visitor.F12] has automatically been generated.
+07/22/16 09:42:41
+Michel Bierlaire, EPFL
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+   Nothing here
+END
+0	ASC_FREE	F	13.5099	0.109288
+1	ASC_OTHER	F	-1.12366	0.145406
+2	ASC_TRANSIT	F	-1.33349	0.134069
+3	B_HYP	F	0.0811343	0.0239339
+4	B_VIS	F	-0.428312	0.193239
+-1
+838	-985.941	-1086.41	-589.521
+  13   0 07/22/16 09:42:41
+  70216  21522  16013  -2698   -938 -60238  72368  72703   1034    703
