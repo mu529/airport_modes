@@ -1,0 +1,75 @@
+This file has automatically been generated.
+07/26/16 10:39:52
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[10:39:52]patFileNames.cc:52  models/26jul_D.par does not exist
+[10:39:52]patFileNames.cc:56  Trying default.par instead
+[10:39:52]patBiogeme.cc:134  Read default.par
+ Read headers in models-data/data_26jul_1.dat
+ 14 headers read in models-data/data_26jul_1.dat
+ Total number of different headers: 14
+ Read file models/26jul_D.mod
+ Opening file models-data/data_26jul_1.dat
+ Data  file... line 500	Memory: 59 Kb
+ Total obs.:   837
+ Total memory: 99.8398 Kb
+ Detailed info in models/26jul_D.sta
+ Nbr of attributes: 15
+ Nbr of alternatives: 4
+ Sample size: 838
+ Nbr of groups: 1
+ Nbr of betas: 7
+ Run time for data processing: 00:00
+ Dimension of the optimisation problem = 6
+ Utility function: Linear-in-parameters
+ Init loglike=-985.941
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +2.39e-001    1 1.00e+000 +9.8594093e+002 ****OutTrReg +9.78e-001 6  ++ P
+ +1.62e-001    2 2.00e+000 +7.8431094e+002 ****Converg  +1.13e+000 6  ++ P
+ +7.15e-002    3 4.00e+000 +6.1970589e+002 ****Converg  +1.23e+000 6  ++ P
+ +3.59e-002    4 8.00e+000 +5.9765963e+002 ****Converg  +1.26e+000 6  ++ P
+ +1.68e-002    5 1.60e+001 +5.9103791e+002 ****Converg  +1.26e+000 6  ++ P
+ +7.51e-003    6 3.20e+001 +5.8871852e+002 ****Converg  +1.26e+000 6  ++ P
+ +3.25e-003    7 6.40e+001 +5.8787887e+002 ****Converg  +1.26e+000 6  ++ P
+ +1.38e-003    8 1.28e+002 +5.8757178e+002 ****Converg  +1.26e+000 6  ++ P
+ +5.73e-004    9 2.56e+002 +5.8745905e+002 ****Converg  +1.26e+000 6  ++ P
+ +2.35e-004   10 5.12e+002 +5.8741761e+002 ****Converg  +1.26e+000 6  ++ P
+ +9.55e-005   11 1.02e+003 +5.8740237e+002 ****Converg  +1.26e+000 6  ++ P
+ +3.84e-005   12 2.05e+003 +5.8739676e+002 ****Converg  +1.26e+000 6  ++ P
+ +1.54e-005   13 4.10e+003 +5.8739470e+002 ****Converg  +1.26e+000 6  ++ P
+ +6.10e-006   14 8.19e+003 +5.8739394e+002 ****Converg  +1.26e+000 6  ++ P
+ Convergence reached...
+ Run time: 00:00
+ Solution = (14.6135	-1.01255	-1.32998	0.489929	0.0797821	-0.418412	)
+ Gradient = (-0.000162424	3.71308e-005	3.00549e-005	3.17076e-005	7.91217e-005	4.61592e-005	)
+ Final log likelihood=-587.394
+ Be patient... BIOGEME is preparing the output files
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		models/26jul_D.mod
+ Sample 1 :				models-data/data_26jul_1.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		models/26jul_D.rep
+ Estimation results (HTML):	models/26jul_D.html
+ Estimation results (Latex):	models/26jul_D.tex
+ Estimation results (ALogit):	models/26jul_D.F12
+ Result model spec. file:	models/26jul_D.res
+ Sample statistics:		models/26jul_D.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			models/26jul_D.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Logit Model
+ ==================
+ The minimum argument of exp was -16.3492
+
+ Run time for estimation:      00:00
+ Total run time:               00:00
