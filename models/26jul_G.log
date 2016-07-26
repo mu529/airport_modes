@@ -1,0 +1,88 @@
+This file has automatically been generated.
+07/26/16 12:07:06
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[12:07:06]patFileNames.cc:52  models/26jul_G.par does not exist
+[12:07:06]patFileNames.cc:56  Trying default.par instead
+[12:07:06]patBiogeme.cc:134  Read default.par
+ Read headers in models-data/data_26jul_1.dat
+ 15 headers read in models-data/data_26jul_1.dat
+ Total number of different headers: 15
+ Read file models/26jul_G.mod
+ Opening file models-data/data_26jul_1.dat
+ Data  file... line 500	Memory: 67 Kb
+ Total obs.:   837
+ Total memory: 112.934 Kb
+ Detailed info in models/26jul_G.sta
+ Nbr of attributes: 18
+ Nbr of alternatives: 4
+ Sample size: 838
+ Nbr of groups: 1
+ Nbr of betas: 7
+ Run time for data processing: 00:00
+ Dimension of the optimisation problem = 6
+ Utility function: Linear-in-parameters
+ Init loglike=-985.941
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +1.01e+000    1 1.00e+000 +9.8594093e+002 ****OutTrReg +9.77e-001 6  ++ P
+ +1.01e+000    2 2.00e+000 +7.0763577e+002 ****Converg  +1.15e+000 6  ++ P
+ +1.01e+000    3 4.00e+000 +6.3009717e+002 ****Converg  +1.20e+000 6  ++ P
+ +5.53e-001    4 8.00e+000 +6.1319765e+002 ****Converg  +1.05e+000 6  ++ P
+ +8.81e-002    5 1.60e+001 +6.0872022e+002 ****Converg  +1.45e-002 6  +  P
+ +1.01e+000    6 1.60e+001 +6.0848603e+002 ****Converg  +7.06e-001 6  +  P
+ +1.01e+000    7 1.60e+001 +6.0283027e+002 ****Converg  +9.68e-001 6  ++ P
+ +1.73e-001    8 3.20e+001 +6.0175205e+002 ****Converg  +1.07e+000 6  ++ P
+ +5.98e-001    9 6.40e+001 +5.9491989e+002 ****Converg  +9.97e-001 6  ++ P
+ +3.09e-002   10 1.28e+002 +5.9483679e+002 ****Converg  +9.52e-001 6  ++ P
+ +2.27e-001   11 2.56e+002 +5.9335681e+002 ****Converg  +9.97e-001 6  ++ P
+ +1.66e-002   12 5.12e+002 +5.9334488e+002 ****Converg  +1.20e+000 6  ++ P
+ +4.90e-002   13 1.02e+003 +5.9238177e+002 ****Converg  +9.99e-001 6  ++ P
+ +3.17e-003   14 2.05e+003 +5.9238126e+002 ****Converg  +1.26e+000 6  ++ P
+ +1.73e-002   15 4.10e+003 +5.9208977e+002 ****Converg  +1.00e+000 6  ++ P
+ +1.34e-003   16 8.19e+003 +5.9208971e+002 ****Converg  +1.26e+000 6  ++ P
+ +6.34e-003   17 1.64e+004 +5.9198304e+002 ****Converg  +1.00e+000 6  ++ P
+ +5.54e-004   18 3.28e+004 +5.9198303e+002 ****Converg  +1.26e+000 6  ++ P
+ +2.34e-003   19 6.55e+004 +5.9194384e+002 ****Converg  +1.00e+000 6  ++ P
+ +2.27e-004   20 1.31e+005 +5.9194384e+002 ****Converg  +1.26e+000 6  ++ P
+ +8.62e-004   21 2.62e+005 +5.9192943e+002 ****Converg  +1.00e+000 6  ++ P
+ +9.20e-005   22 5.24e+005 +5.9192943e+002 ****Converg  +1.26e+000 6  ++ P
+ +3.17e-004   23 1.05e+006 +5.9192413e+002 ****Converg  +1.00e+000 6  ++ P
+ +3.70e-005   24 2.10e+006 +5.9192413e+002 ****Converg  +1.26e+000 6  ++ P
+ +1.17e-004   25 4.19e+006 +5.9192218e+002 ****Converg  +1.00e+000 6  ++ P
+ +1.48e-005   26 8.39e+006 +5.9192218e+002 ****Converg  +1.26e+000 6  ++ P
+ +4.29e-005   27 1.68e+007 +5.9192147e+002 ****Converg  +9.98e-001 6  ++ P
+ Convergence reached...
+ Run time: 00:00
+ Solution = (13.8221	-0.871387	-1.08241	0.497849	0.00107065	-0.401969	)
+ Gradient = (-0.000417367	0.000332697	1.82036e-005	3.28032e-005	-0.00135217	-1.35235e-005	)
+ Final log likelihood=-591.921
+ Be patient... BIOGEME is preparing the output files
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		models/26jul_G.mod
+ Sample 1 :				models-data/data_26jul_1.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		models/26jul_G.rep
+ Estimation results (HTML):	models/26jul_G.html
+ Estimation results (Latex):	models/26jul_G.tex
+ Estimation results (ALogit):	models/26jul_G.F12
+ Result model spec. file:	models/26jul_G.res
+ Sample statistics:		models/26jul_G.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			models/26jul_G.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Logit Model
+ ==================
+ The minimum argument of exp was -15.2409
+
+ Run time for estimation:      00:00
+ Total run time:               00:00

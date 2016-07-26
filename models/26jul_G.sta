@@ -1,0 +1,29 @@
+++++++++ 07/26/16 12:07:06 ++++++++
+Sample size=838
+Excluded Obs.:       0
+Total obs. in files: 837
+Number of cases:     1903
+Statistics of attributes
+++++++++++++++++++++++++
+Name	Nbr	Mean	Min	Max	Recommended/Conservative upper bounds for Box-Cox
+BUSINESS	838	0.224076	0	1	
+CHOICE	838	2.29201	1	4	
+GC_TAXI	838	118.838	28.0804	187.313	
+GC_TRANSIT	838	128.251	61.2433	1707.73	
+VISITOR	838	0.486293	0	1	
+one	838	1	1	1	
+Nbr of times alternatives are available
+Alt	#
+1	838
+2	838
+3	838
+4	227
+Nbr of times alternatives are chosen
+Alt	#
+1	350
+2	119
+3	142
+4	227
+Group membership
+Group	#
+1	838

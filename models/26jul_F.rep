@@ -1,0 +1,75 @@
+// This file has automatically been generated.
+// 07/26/16 12:04:00
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+   Nothing here
+
+                         Model: Logit
+Number of estimated parameters: 7
+        Number of observations: 838
+         Number of individuals: 838
+           Null log likelihood: -985.941
+           Init log likelihood: -985.941
+          Final log likelihood: -589.614
+         Likelihood ratio test: 792.653
+                    Rho-square: 0.402
+           Adjusted rho-square: 0.395
+           Final gradient norm: +7.858e-004
+                    Diagnostic: Convergence reached...
+                    Iterations: 26
+                      Run time: 00:00
+           Variance-covariance: from analytical hessian
+                   Sample file: models-data/data_26jul_1.dat
+
+Utility parameters
+******************
+Name        Value    Std err   t-test p-val   Rob. std err Rob. t-test Rob. p-val   
+----        -----    -------   ------ -----   ------------ ----------- ----------   
+ASC_FREE    14.3     66.2      0.22   0.83  * 0.187        76.20       0.00         
+ASC_OTHER   -1.07    0.225     -4.75  0.00    0.212        -5.05       0.00         
+ASC_TAXI    0.000    --fixed--                                                      
+ASC_TRANSIT -1.08    0.106     -10.18 0.00    0.107        -10.16      0.00         
+B_BIZ       0.412    0.249     1.66   0.10  * 0.248        1.67        0.10       * 
+B_COST      0.000987 0.00112   0.88   0.38  * 0.00102      0.97        0.33       * 
+B_INC       -0.437   0.202     -2.16  0.03    0.202        -2.16       0.03         
+B_VIS       -0.425   0.195     -2.18  0.03    0.194        -2.19       0.03         
+
+Utility functions
+*****************
+1	A1_TAXI	av2	ASC_TAXI * one + B_VIS * VISITOR + B_BIZ * BUSINESS + B_INC * LOWINC + B_COST * GC_TAXI
+2	A2_TRANSIT	av1	ASC_TRANSIT * one + B_VIS * VISITOR + B_BIZ * BUSINESS + B_INC * LOWINC + B_COST * GC_TRANSIT
+3	A3_OTHER	av3	ASC_OTHER * one
+4	A4_FREE	av4	ASC_FREE * one
+
+
+Correlation of coefficients
+***************************
+Coeff1      Coeff2      Covariance Correlation t-test   Rob. covar. Rob. correl. Rob. t-test   
+------      ------      ---------- ----------- ------   ----------- ------------ -----------   
+B_INC       B_VIS       0.00253    0.0642      -0.04  * -0.00106    -0.0270      -0.04       * 
+ASC_OTHER   ASC_TRANSIT 0.00229    0.0957      0.05   * 0.00218     0.0966       0.06        * 
+B_BIZ       B_COST      -1.08e-005 -0.0385     1.65   * -9.29e-006  -0.0370      1.66        * 
+B_COST      B_INC       7.86e-006  0.0346      2.17     -1.14e-006  -0.00557     2.17          
+B_COST      B_VIS       -6.27e-006 -0.0286     2.18     -6.04e-006  -0.0307      2.20          
+B_BIZ       B_VIS       0.00123    0.0253      2.68     0.00122     0.0254       2.70          
+ASC_OTHER   B_INC       0.0197     0.433       -2.77    0.0167      0.390        -2.77         
+B_BIZ       B_INC       0.00809    0.161       2.88     0.00830     0.166        2.90          
+ASC_TRANSIT B_INC       -3.98e-005 -0.00185    -2.82    0.00153     0.0712       -2.91         
+ASC_TRANSIT B_VIS       2.98e-005  0.00144     -2.96    0.000936    0.0453       -3.03         
+ASC_OTHER   B_VIS       0.0213     0.484       -3.00    0.0194      0.473        -3.09         
+ASC_OTHER   B_COST      0.000151   0.599       -4.77    0.000122    0.566        -5.07         
+ASC_OTHER   B_BIZ       0.0145     0.258       -5.12    0.0145      0.278        -5.34         
+ASC_TRANSIT B_BIZ       3.13e-005  0.00118     -5.52    -0.000544   -0.0206      -5.50         
+ASC_TRANSIT B_COST      -4.72e-006 -0.0395     -10.19   -1.20e-005  -0.111       -10.16        
+ASC_FREE    B_BIZ       0.0157     0.000951    0.21   * 0.0156      0.337        54.28         
+ASC_FREE    B_INC       0.0148     0.00111     0.22   * 0.0126      0.333        65.30         
+ASC_FREE    B_VIS       0.0156     0.00121     0.22   * 0.0146      0.403        70.55         
+ASC_FREE    ASC_TRANSIT 0.00234    0.000333    0.23   * 0.00202     0.101        74.57         
+ASC_FREE    B_COST      0.000159   0.00214     0.22   * 0.000126    0.664        76.47         
+ASC_FREE    ASC_OTHER   0.0395     0.00265     0.23   * 0.0341      0.861        142.37        
+
+Smallest singular value of the hessian: 0.000228351
+

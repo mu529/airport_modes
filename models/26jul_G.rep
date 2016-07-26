@@ -1,0 +1,68 @@
+// This file has automatically been generated.
+// 07/26/16 12:07:06
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+   Nothing here
+
+                         Model: Logit
+Number of estimated parameters: 6
+        Number of observations: 838
+         Number of individuals: 838
+           Null log likelihood: -985.941
+           Init log likelihood: -985.941
+          Final log likelihood: -591.921
+         Likelihood ratio test: 788.039
+                    Rho-square: 0.400
+           Adjusted rho-square: 0.394
+           Final gradient norm: +1.454e-003
+                    Diagnostic: Convergence reached...
+                    Iterations: 27
+                      Run time: 00:00
+           Variance-covariance: from analytical hessian
+                   Sample file: models-data/data_26jul_1.dat
+
+Utility parameters
+******************
+Name        Value   Std err   t-test p-val   Rob. std err Rob. t-test Rob. p-val   
+----        -----   -------   ------ -----   ------------ ----------- ----------   
+ASC_FREE    13.8    48.9      0.28   0.78  * 0.175        78.99       0.00         
+ASC_OTHER   -0.871  0.203     -4.28  0.00    0.194        -4.48       0.00         
+ASC_TAXI    0.000   --fixed--                                                      
+ASC_TRANSIT -1.08   0.106     -10.18 0.00    0.107        -10.15      0.00         
+B_BIZ       0.498   0.245     2.03   0.04    0.244        2.04        0.04         
+B_COST      0.00107 0.00113   0.95   0.34  * 0.000985     1.09        0.28       * 
+B_VIS       -0.402  0.194     -2.07  0.04    0.194        -2.07       0.04         
+
+Utility functions
+*****************
+1	A1_TAXI	av2	ASC_TAXI * one + B_VIS * VISITOR + B_BIZ * BUSINESS + B_COST * GC_TAXI
+2	A2_TRANSIT	av1	ASC_TRANSIT * one + B_VIS * VISITOR + B_BIZ * BUSINESS + B_COST * GC_TRANSIT
+3	A3_OTHER	av3	ASC_OTHER * one
+4	A4_FREE	av4	ASC_FREE * one
+
+
+Correlation of coefficients
+***************************
+Coeff1      Coeff2      Covariance Correlation t-test   Rob. covar. Rob. correl. Rob. t-test   
+------      ------      ---------- ----------- ------   ----------- ------------ -----------   
+ASC_OTHER   ASC_TRANSIT 0.00228    0.106       0.96   * 0.00136     0.0654       0.98        * 
+B_BIZ       B_COST      -1.28e-005 -0.0460     2.03     -1.06e-005  -0.0441      2.03          
+B_COST      B_VIS       -6.67e-006 -0.0304     2.08     -4.80e-006  -0.0251      2.08          
+ASC_OTHER   B_VIS       0.0199     0.505       -2.37    0.0206      0.546        -2.54         
+B_BIZ       B_VIS       0.000931   0.0196      2.91     0.00282     0.0595       2.97          
+ASC_TRANSIT B_VIS       3.16e-005  0.00153     -3.08    0.000644    0.0311       -3.12         
+ASC_OTHER   B_COST      0.000151   0.654       -4.30    0.000116    0.604        -4.50         
+ASC_OTHER   B_BIZ       0.0105     0.211       -4.83    0.0116      0.243        -5.02         
+ASC_TRANSIT B_BIZ       4.06e-005  0.00156     -5.92    -0.000848   -0.0326      -5.86         
+ASC_TRANSIT B_COST      -4.89e-006 -0.0406     -10.19   -1.29e-005  -0.123       -10.15        
+ASC_FREE    B_BIZ       0.0131     0.00109     0.27   * 0.0139      0.324        53.26         
+ASC_FREE    B_VIS       0.0148     0.00156     0.29   * 0.0156      0.460        73.90         
+ASC_FREE    ASC_TRANSIT 0.00234    0.000449    0.30   * 0.00132     0.0710       75.15         
+ASC_FREE    B_COST      0.000159   0.00286     0.28   * 0.000119    0.688        79.29         
+ASC_FREE    ASC_OTHER   0.0329     0.00330     0.30   * 0.0287      0.844        140.03        
+
+Smallest singular value of the hessian: 0.000417152
+
